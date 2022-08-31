@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    @font-face {
+        font-family: Manrope;
+        src: url("assets/fonts/Manrope-Regular.otf");
+    }
+    @responsive {
+        .text-shadow {
+            text-shadow: 0 0px 10px rgb(183, 245, 239);
+        }
+    }
+}

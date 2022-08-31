@@ -19,6 +19,12 @@ module.exports = {
     extend: {
       colors: {
         bgColor: '#524F4F'
+      },
+      fontFamily: {
+        'sans': ['Manrope', 'sans-serif']
+      },
+      dropShadow: {
+        'light': ['0px 0px 10px rgb(183, 245, 239)']
       }
     },
   },
