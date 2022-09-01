@@ -1,4 +1,10 @@
 <template>
+  <PopupIntro 
+    v-if="isOpen"
+    class="pop-window"
+    @close-window="closeTopic"
+    :selected="choose"
+  />
   <div class="flex flex-col grid justify-items-center w-screen">
     <div class="aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
       <p class="pink-title text-3xl lg:text-5xl xl:text-6xl p-3">比賽題目</p>
@@ -8,20 +14,25 @@
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">黑客組</p>
     </div>
 
-    <div class="flex justify-between items-center w-[95%]">
-      <button @click="scrollLeft" class="h-[50%]">
+    <div class="flex justify-between items-center w-[90%]">
+      <button @click="scrollLeft" class="mx-3 py-12 ">
         <img class="w-full" src="../assets/arrow_btn.svg" />
       </button>
 
       <div id="list-box" class="list-box">
-        <div id="list" class="list">
-          <div v-for="(item, index) in monitorList" :key="item.id" class="list-items rounded-full aspect-square bg-[#FFFFFF]">
-            <img :src="imgList[index]" class="w-full" />
-          </div>
+        <div id="list" class="list flex justify-around overflow-x-auto">
+          <button 
+            @click="openTopic(index)" 
+            v-for="(item, index) in monitorList" 
+            :key="item.id" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square border border-[#8DD9ECE5] bg-cover bg-no-repeat"
+          >
+            <img :src="imgList[index]" class="bg-white rounded-full aspect-square w-full" />
+          </button>
         </div>
       </div>
 
-      <button @click="scrollRight" class="h-[50%]">
+      <button @click="scrollRight" class="mx-3 py-12 ">
         <img class="w-full rotate-180" src="../assets/arrow_btn.svg" />
       </button>
     </div>
@@ -30,82 +41,109 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        monitorList: [],
-        imgList: ['../../src/assets/star.svg', '../../src/assets/atom.svg','../../src/assets/circle1.svg','../../src/assets/star.svg','../../src/assets/circle1.svg','../../src/assets/circle1.svg','../../src/assets/circle1.svg' ],
-      }
-    },
-    created() {
-      this.initMonitorList()
-    },
-    methods: {
-      initMonitorList() {
-        for (let i = 1; i < 4; i++) {
-          this.monitorList.push({
-            id: i,
-            name: `item${i + 1}`,
-            status: 0
-          })
-        }
-      },
-      // 左滑动逻辑
-      scrollLeft() {
-        const allLength = this.monitorList.length * 120
-        const boxLength = document.getElementById('list-box').clientWidth
-        console.log("scrollLeft!!!!!!", boxLength)
-        if (allLength < boxLength) return
-        console.log("scrollLeft111")
+import { ref } from 'vue';
+import PopupIntro from './PopupIntro.vue';
+export default {
+  components: {PopupIntro},
+  setup() {
+    const isOpen = ref(false)
+    const choose = ref('')
+    const monitorList = ref([])
+    const imgList = ['../../src/assets/star.svg', '../../src/assets/atom.svg','../../src/assets/circle1.svg','../../src/assets/circle2.svg','../../src/assets/circle3.svg','../../src/assets/circle1.svg','../../src/assets/circle2.svg' ]
+
+    for (let i = 1; i < 8; i++) {
+      monitorList.value.push({
+        id: i,
+        name: `item${i + 1}`,
+        status: 0
+      })
+    }
+
+    const openTopic = (index) => {
+      isOpen.value = true;
+      choose.value = index;
+      console.log("select:",choose.value, isOpen.value)
+    }
+
+    const closeTopic = (val) => {
+      isOpen.value = !(val)
+    }
+
+    const scrollLeft = () => {
         const listEl = document.getElementById('list')
+        const itemLength = listEl.clientWidth / 7
+        const boxLength = document.getElementById('list-box').clientWidth
         const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
-        if (leftMove + boxLength - 360 < boxLength) {
-          console.log("scrollLeft222")
+        if (leftMove + boxLength - (itemLength*2) < boxLength) {
           // 到最开始的时候
           listEl.style.left = '0px'
+          listEl.style.transition = "left 1s"
         } else {
-          console.log("scrollLeft333")
-          listEl.style.left = '-' + (leftMove - 360) + 'px'
-        }
-      },
-      // 右滑动逻辑
-      scrollRight() {
-        console.log("scrollRight")
-        const allLength = this.monitorList.length * 120
-        const boxLength = document.getElementById('list-box').clientWidth
-        if (allLength < boxLength) return
-        const listEl = document.getElementById('list')
-        const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
-        if (leftMove + boxLength + 360 > allLength) {
-          listEl.style.left = '-' + (allLength - boxLength) + 'px'
-        } else {
-          listEl.style.left = '-' + (leftMove + 360) + 'px'
+          listEl.style.left = '-' + (leftMove - (itemLength*3)) + 'px'
+          listEl.style.transition = "left 1s"
         }
       }
+    
+    const scrollRight = () => {
+      const listEl = document.getElementById('list')
+      const itemLength = listEl.clientWidth / 7
+      const allLength = monitorList.value.length * itemLength
+      const boxLength = document.getElementById('list-box').clientWidth
+      if (allLength < boxLength) return
+      const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
+      if (leftMove + boxLength + itemLength*2 > allLength) {
+        listEl.style.left = '-' + (allLength - boxLength) + 'px'
+        listEl.style.transition = "left 1s"
+      } else {
+        listEl.style.left = '-' + (leftMove + 360) + 'px'
+        listEl.style.transition = "left 1s"
+      }
+    }
+    
+
+    return {
+      isOpen,
+      monitorList,
+      imgList,
+      choose,
+      scrollLeft,
+      scrollRight,
+      openTopic,
+      closeTopic
     }
   }
+}
 </script>
 
 <style>
 .list-box {
-      width: calc(100vw - 100px);
-      overflow: hidden;
-      position: relative;
-        left: 0;
-        transition: left 1s;
+    width: calc(100vw - 100px);
+    overflow: hidden;
+    position: relative;    
 }
 
 .list {
+    position: relative;
     width: calc(100vw - 100px);
-    display: flex;
+    /* display: flex; */
+    justify-content: space-around;
+    transform: all 2s;
+    left: 0;
 }
 
 .list-items {
-  width: 100px;
-  height: 95px;
-  text-align: center;
-  padding: 10px;
+  position: relative;
+  align-content: center;
   cursor: pointer;
-  margin-left: 40px;
+}
+
+.pop-window {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 50%;
+  margin: auto;
 }
 </style>

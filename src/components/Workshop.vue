@@ -12,6 +12,13 @@
           <p class="mt-[3%] text-white tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-loose">
             在黑客組工作坊中，透過講解與實作的過程，參與者將能更加熟悉的運用企業提供的資源，同時激盪更多靈感與創意，並在正式比賽中將以付諸實現。
           </p>
+          <a 
+            href="../../src/static/workshop2022.pdf"
+            target="_blank"
+            class="view-more-ping"
+          >
+            <div class="text-white font-bold underline tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-loose">詳細資訊</div> 
+          </a>
         </div>
 
         <div class="w-[80%] lg:w-[75%] xl:w-[70%] px-[2.5%] lg:px-[6%] flex-cols justify-self-end">
@@ -59,7 +66,6 @@
             <img src="../assets/workshop_arrow.svg" class="w-[13%]"/>
             <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl py-1">黑客組</p>
             <p class="yellow-title text-xs lg:text-sm xl:text-base mb-auto">黑客組 每間企業獨立評選</p>
-            
             <p class="text-white text-sm lg:text-base xl:text-lg leading-loose -tracking-[0.04em]">第一名：新台幣壹萬伍仟元整、實體獎品、實習或實習面試資格</p>
             <hr class="blue-divider my-auto" />
             <p class="text-white text-sm lg:text-base xl:text-lg leading-loose -tracking-[0.04em]">第二名：新台幣壹萬元整、實體獎品</p>
@@ -75,19 +81,6 @@
             <p class="text-white text-sm lg:text-base xl:text-lg leading-loose -tracking-[0.04em]">第二名：新台幣參萬元整</p>
             <hr class="blue-divider my-auto" />
             <p class="text-white text-sm lg:text-base xl:text-lg leading-loose -tracking-[0.04em] mb-auto">第三名：新台幣貳仟元整</p>
-            <!-- <p class="text-white text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose -tracking-[0.04em] my-auto">
-              - 最佳創意獎：新台幣伍仟元整
-              <br />
-              - 最佳實作獎：新台幣伍仟元整
-              <br />
-              - 最佳可行性獎：新台幣伍仟元整
-              <br />
-              - 最佳使用者體驗獎：新台幣伍仟元整
-              <br />
-              - 高中生特別獎：新台幣壹仟伍佰元整
-              <br />
-              （ 可重複獲獎）
-            </p> -->
           </div>
           <!-- card3 -->
           <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[383/507] bg-contain bg-no-repeat bg-[url('../../src/assets/awardCard.svg')]">
@@ -103,6 +96,11 @@
           </div>
 
         </div>
+
+        <p class="mt-10 text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.1em]">
+          ✧ 今年是梅竹黑客松邁入第十年之際，因此我們在競賽中加碼獎金並增設獎項！希望能和參賽者一同見證這個值得紀念的時刻。 ✧
+        </p>
+
       </div>
     </div>
   </div>
@@ -144,4 +142,31 @@ export default {
 .blue-divider {
   border-top: 1px solid rgba(141, 217, 236, 0.9);
 }
+
+.view-more-ping {
+  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+@keyframes ping {
+    50% {
+      transform: scale(2);
+      opacity: 1;
+    }
+    0%, 100% {
+      opacity: .5;
+    }
+  }
+
+/* .{
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse {
+    50%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: .5;
+    }
+  }
+} */
+
 </style>
