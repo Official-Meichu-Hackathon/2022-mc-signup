@@ -10,11 +10,13 @@
     <Prospect class="" />
     
     <Information />
-    <div class="h-[300px]"></div>
+    <GroupIntro />
+
+    <!-- <div class="h-[300px]"></div> -->
     <Topics />
+    <HowToSignup />
     <Workshop />
 
-    <HowToSignup />
     
     <Staff />
   </div>
@@ -36,6 +38,8 @@ import Topics from './Topics.vue';
 import Staff from './Staff.vue'
 import PopupIntro from './PopupIntro.vue';
 import Footer from './Footer.vue';
+import GroupIntro from './GroupIntro.vue';
+
 // onMounted(() => window.addEventListener('resize', getHeaderHeight))
 
 // function getHeaderHeight() {

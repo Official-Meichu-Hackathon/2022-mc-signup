@@ -23,7 +23,7 @@
       <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">工作人員</p>
     </div>
 
-    <div class="basis-auto grid grid-cols-1 lg:grid-cols-2 gap-[8%] w-[80%] xl:w-[70%]">
+    <div class="basis-auto grid grid-cols-1 lg:grid-cols-2 gap-[8%] w-[80%] xl:w-[70%] mt-[5%]">
       <div v-for="dept in staffList" :key="dept" class="flex flex-row items-center">
         <img :src="dept.img" class="w-[8rem] mr-3" />
         <div class="basis-auto flex flex-row flex-wrap">

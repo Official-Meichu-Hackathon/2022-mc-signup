@@ -19,12 +19,13 @@
       <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">&thinsp;比賽題目</p>
     </div>
 
-    <div class="flex flex-row flex items-center justify-self-start pl-[5%]">
+    <!-- Hacker -->
+    <div class="flex flex-row flex items-center justify-self-start pl-[5%] pt-5">
       <img class="h-10" src="../assets/star.svg" />
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">黑客組</p>
     </div>
 
-    <div class="flex justify-between items-center w-[90%]">
+    <div class="flex justify-between items-center w-[90%] pt-5">
       <button @click="scrollLeft" class="mx-3 py-12 w-[8%] md:w-auto">
         <img class="w-full" src="../assets/arrow_btn.svg" />
       </button>
@@ -46,6 +47,16 @@
         <img class="w-full rotate-180" src="../assets/arrow_btn.svg" />
       </button>
     </div>
+
+    <!-- Maker -->
+    <div class="flex flex-row flex items-center justify-self-start pl-[5%] pt-5">
+      <img class="h-10" src="../assets/star.svg" />
+      <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">創客交流組</p>
+    </div>
+    <p class="text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.04em] flex justify-self-start pl-[8%] pt-5">
+      交流組的參賽者自訂題目，以不同的角度切入問題，提供更加多元的解決方案。
+    </p>
+
 
   </div>
 </template>

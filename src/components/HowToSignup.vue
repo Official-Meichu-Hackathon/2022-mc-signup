@@ -7,7 +7,7 @@
     </div>
     <div class="h-[3rem]"></div>
 
-    <div class="grid grid-cols-3 gap-[2%] w-[90%]">
+    <div class="grid grid-cols-3 gap-[2%] w-[80%]">
       <div class="relative aspect-[381/217]">
         <img class="w-full absolute z-0" src="../assets/small_border.svg" />
         <div class="flex flex-col justify-around p-3 lg:p-6 xl:p-10 aspect-[381/217]">
@@ -43,10 +43,10 @@
       </div>
     </div>
     <div class="h-[2.5rem]"></div>
-    <div class="relative aspect-[1213/818] w-[90%]">
+    <div class="relative aspect-[1213/818] w-[80%]">
       <img class="absolute w-full" src="../assets/big_border.svg" />
       <div class="absolute bg-[#B288901A] w-[97%] h-[97%] right-0 left-0 bottom-0 mx-auto"></div>
-      <div class="absolute p-10 lg:p-14 xl:p-20 h-full left-[7em] indent-[-7em] text-white font-medium leading-5 text-xs lg:leading-7 lg:text-base xl:leading-10 xl:text-xl align-middle">
+      <div class="absolute px-[7em] h-[90%] left-[7em] top-0 bottom-0 my-auto indent-[-7em] text-white font-medium leading-6 text-xs lg:leading-8 lg:text-base xl:leading-10 xl:text-xl align-middle overflow-y-auto">
         <p>
           ● 報名費用&ensp;｜&ensp;＄600 / 人（須另繳保證金 $200）
           <br />
