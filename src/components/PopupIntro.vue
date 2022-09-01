@@ -1,37 +1,42 @@
 <template>
-  <div class="relative aspect-[738.2/596] bg-[url('../../src/assets/intro_card.svg')] bg-contain bg-no-repeat bg-center z-20">
-    <div class="absolute bottom-0 aspect-[736.9/569.45] card-bg w-full mt-[full]"></div>
-    <button 
-      @click="$emit('close-window', true)" 
-      class="absolute top-[5.5%] right-1 aspect-square w-[2.8%] mr-1"
-    >
-      <img class="w-full" src="../assets/cross.svg" />
-    </button>
-    <div class="card-textbox aspect-[678/365] p-[5%] my-1 overflow-y-auto">
-      <p class="card-text text-[2rem] font-bold whitespace-pre-line">
-        {{ companies[selected].name }}
-      </p>
-      <br />
-      <p class="card-text text-[1rem] whitespace-pre-line">
-        {{ companies[selected].topic }}
-        <br /><br />
-        {{ companies[selected].intro }}
-      </p>
-    </div>
-    <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
-      <!-- <div class="flex justify-between"> -->
-        <img src="../assets/download_btn.svg" class="" />
-        <img src="../assets/download_btn.svg" class="" />
-      <!-- </div> -->
-      <img src="../assets/intro_card_bottom.svg" class="" />
+  <div class="pop-window">
+      <div class="relative aspect-[738.2/596] bg-[url('../../src/assets/intro_card.svg')] bg-contain bg-no-repeat bg-center z-20">
+      <div class="absolute bottom-0 aspect-[736.9/569.45] card-bg w-full mt-[full]"></div>
       <button 
-        @click="LinkToPdf" 
-        class="aspect-square rounded-full w-[80%]">
-        <img src="../assets/download_btn.svg" class="" />
+        @click="$emit('close-window', true)" 
+        class="absolute top-[5.5%] right-1 aspect-square w-[2.8%] mr-1"
+      >
+        <img class="w-full" src="../assets/cross.svg" />
       </button>
+      <div class="card-textbox aspect-[678/365] p-[5%] my-1 overflow-y-auto">
+        <p class="card-text text-[2rem] font-bold whitespace-pre-line">
+          {{ companies[selected].name }}
+        </p>
+        <br />
+        <p class="card-text text-[1rem] whitespace-pre-line">
+          {{ companies[selected].topic }}
+          <br /><br />
+          {{ companies[selected].intro }}
+        </p>
+      </div>
+      <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
+        <!-- <div class="flex justify-between"> -->
+          <img src="../assets/download_btn.svg" class="" />
+          <img src="../assets/download_btn.svg" class="" />
+        <!-- </div> -->
+        <img src="../assets/intro_card_bottom.svg" class="" />
+        <button 
+          @click="LinkToPdf" 
+          class="aspect-square rounded-full w-[80%]">
+          <img src="../assets/download_btn.svg" class="" />
+        </button>
+      </div>
+      <!-- <a href="../../src/static/ASML.pdf" >LINKKK</a> -->
     </div>
-    <!-- <a href="../../src/static/ASML.pdf" >LINKKK</a> -->
   </div>
+
+  <div class="parentDisable"></div>
+
 </template>
 
 <script>
@@ -82,7 +87,7 @@ export default {
       {
         name: '原相科技',
         topic: '主題：Visual fiducial localization system for intelligent sensing applications',
-        intro: '說明：Fiducials are artificial visual features designed for automatic detection, and often carry a unique payload to make them distinguishable from each other. Visual fiducial system has many applications in computer vision, augmented reality, and robotics since they greatly simplify the perception problem. By leveraging PixArt’s ultra-low-power image sensor with visual fiducial localization system, we can achieve smarter sensing and interaction for different applications.',
+        intro: '說明：Fiducials are artificial visual features designed for automatic detection, and often carry a unique payload to make them distinguishable from each other. \nVisual fiducial system has many applications in computer vision, augmented reality, and robotics since they greatly simplify the perception problem. \nBy leveraging PixArt’s ultra-low-power image sensor with visual fiducial localization system, we can achieve smarter sensing and interaction for different applications.',
         link: '../../src/static/PXI.pdf',
         img: ['']
       },
@@ -125,5 +130,26 @@ export default {
   line-height: 1.5rem;
   letter-spacing: 0.275em;
   color: #FFFFFF;
+}
+.parentDisable{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.8;
+    z-index: 998;
+    height: 100%;
+    width: 100%;
+}
+
+.pop-window {
+  position: fixed;
+  top: 5%;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  margin: auto;
+  width: 50%
 }
 </style>

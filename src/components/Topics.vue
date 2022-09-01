@@ -1,7 +1,6 @@
 <template>
   <PopupIntro 
     v-if="isOpen"
-    class="pop-window"
     @close-window="closeTopic"
     :selected="choose"
   />
@@ -137,13 +136,4 @@ export default {
   cursor: pointer;
 }
 
-.pop-window {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50%;
-  margin: auto;
-}
 </style>

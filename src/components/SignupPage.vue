@@ -1,17 +1,16 @@
 <template>
   <HeaderMd class="hidden md:block" ref="headerMd" name="headerMd" id="headerMd" />
-  <div class="hidden md:block h-[99px] md:h-[100px] lg:h-[102px]"></div>
+  <Footer />
+  <div class="hidden md:block"></div>
 
   <div class="w-screen bg-bgColor py-20">
+    <div class="h-[300px]"></div>
     <!-- <PopupIntro class="w-[50%] m-auto mb-10 pop-window" /> -->
     <!-- <img src="../assets/test_main_img.svg" class="w-screen" /> -->
+    <Prospect class="" />
+    <Information />
     <Topics />
     <Workshop />
-    
-
-
-    <Prospect class="hidden md:block" />
-    <!-- <Information /> -->
 
     <HowToSignup />
     
@@ -34,7 +33,7 @@ import Workshop from './Workshop.vue';
 import Topics from './Topics.vue';
 import Staff from './Staff.vue'
 import PopupIntro from './PopupIntro.vue';
-
+import Footer from './Footer.vue';
 // onMounted(() => window.addEventListener('resize', getHeaderHeight))
 
 // function getHeaderHeight() {
