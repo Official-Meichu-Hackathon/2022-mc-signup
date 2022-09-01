@@ -5,21 +5,32 @@
     :selected="choose"
   />
   <div class="flex flex-col grid justify-items-center w-screen">
-    <div class="aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
-      <p class="pink-title text-3xl lg:text-5xl xl:text-6xl p-3">比賽題目</p>
+    <!-- md -->
+    <div 
+      class="hidden md:block aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
+    >
+      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl p-0 lg:p-3">&thinsp;比賽題目</p>
     </div>
+
+    <!-- sm -->
+    <div 
+      class="block md:hidden aspect-[201/102] bg-[url('../../src/assets/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
+    >
+      <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">&thinsp;比賽題目</p>
+    </div>
+
     <div class="flex flex-row flex items-center justify-self-start pl-[5%]">
       <img class="h-10" src="../assets/star.svg" />
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">黑客組</p>
     </div>
 
     <div class="flex justify-between items-center w-[90%]">
-      <button @click="scrollLeft" class="mx-3 py-12 ">
+      <button @click="scrollLeft" class="mx-3 py-12 w-[8%] md:w-auto">
         <img class="w-full" src="../assets/arrow_btn.svg" />
       </button>
 
       <div id="list-box" class="list-box">
-        <div id="list" class="list flex justify-around overflow-x-auto">
+        <div id="list" class="list flex justify-around overflow-x-auto min-w-[900px] md:min-w-[1500px] lg:min-w-[2000px]">
           <button 
             @click="openTopic(index)" 
             v-for="(item, index) in monitorList" 
@@ -31,7 +42,7 @@
         </div>
       </div>
 
-      <button @click="scrollRight" class="mx-3 py-12 ">
+      <button @click="scrollRight" class="mx-3 py-12  w-[8%] md:w-auto">
         <img class="w-full rotate-180" src="../assets/arrow_btn.svg" />
       </button>
     </div>
@@ -43,7 +54,7 @@
 import { ref } from 'vue';
 import PopupIntro from './PopupIntro.vue';
 export default {
-  components: {PopupIntro},
+  components: { PopupIntro },
   setup() {
     const isOpen = ref(false)
     const choose = ref('')
@@ -61,7 +72,6 @@ export default {
     const openTopic = (index) => {
       isOpen.value = true;
       choose.value = index;
-      console.log("select:",choose.value, isOpen.value)
     }
 
     const closeTopic = (val) => {
@@ -74,11 +84,11 @@ export default {
         const boxLength = document.getElementById('list-box').clientWidth
         const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
         if (leftMove + boxLength - (itemLength*2) < boxLength) {
-          // 到最开始的时候
+          // to start
           listEl.style.left = '0px'
           listEl.style.transition = "left 1s"
         } else {
-          listEl.style.left = '-' + (leftMove - (itemLength*3)) + 'px'
+          listEl.style.left = '-' + (leftMove - (itemLength*2)) + 'px'
           listEl.style.transition = "left 1s"
         }
       }
@@ -86,15 +96,15 @@ export default {
     const scrollRight = () => {
       const listEl = document.getElementById('list')
       const itemLength = listEl.clientWidth / 7
-      const allLength = monitorList.value.length * itemLength
+      const allLength = listEl.clientWidth
       const boxLength = document.getElementById('list-box').clientWidth
       if (allLength < boxLength) return
       const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
-      if (leftMove + boxLength + itemLength*2 > allLength) {
+      if (leftMove + boxLength + (itemLength*2) > allLength) {
         listEl.style.left = '-' + (allLength - boxLength) + 'px'
         listEl.style.transition = "left 1s"
       } else {
-        listEl.style.left = '-' + (leftMove + 360) + 'px'
+        listEl.style.left = '-' + (leftMove + (itemLength*2)) + 'px'
         listEl.style.transition = "left 1s"
       }
     }

@@ -13,9 +13,16 @@
   </div>
 
   <div class="flex flex-col grid justify-items-center py-[10%]">
-    <div class="aspect-[751/186] my-[7%] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
-      <p class="pink-title text-3xl lg:text-5xl xl:text-6xl p-3">工作人員</p>
+    <!-- md -->
+    <div class="hidden md:block aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
+      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl p-0 lg:p-3">工作人員</p>
     </div>
+
+    <!-- sm -->
+    <div class="block md:hidden aspect-[201/102] bg-[url('../../src/assets/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
+      <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">工作人員</p>
+    </div>
+
     <div class="basis-auto grid grid-cols-1 lg:grid-cols-2 gap-[8%] w-[80%] xl:w-[70%]">
       <div v-for="dept in staffList" :key="dept" class="flex flex-row items-center">
         <img :src="dept.img" class="w-[8rem] mr-3" />

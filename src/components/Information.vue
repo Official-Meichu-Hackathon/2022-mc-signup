@@ -27,7 +27,7 @@
           src="../assets/timeline2.svg" 
           class="self-end w-[100%]"
         />
-        <div class="relative w-[80%]"> 
+        <div class="hidden md:block relative w-[80%]"> 
           <img 
             src="../assets/global.svg"
             class="global"
@@ -45,7 +45,6 @@ window.addEventListener('scroll', () => {
 
   const global = document.querySelector('.global')
   const globalMoveSpeed = -0.7
-  console.log("global", globalMoveSpeed, scrollPositionY)
   global.dataset.speed = globalMoveSpeed
   global.style.transform = `translateY(${scrollPositionY * globalMoveSpeed}px)`;
 })

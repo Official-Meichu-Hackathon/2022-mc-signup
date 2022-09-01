@@ -8,7 +8,9 @@
     <!-- <PopupIntro class="w-[50%] m-auto mb-10 pop-window" /> -->
     <!-- <img src="../assets/test_main_img.svg" class="w-screen" /> -->
     <Prospect class="" />
+    
     <Information />
+    <div class="h-[300px]"></div>
     <Topics />
     <Workshop />
 
