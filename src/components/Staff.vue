@@ -1,16 +1,15 @@
 <template>
-  <div class="flex flex-col">
+  <!-- <div class="flex flex-col">
     <p class="pink-title text-3xl lg:text-5xl xl:text-6xl mx-auto">Sponsor</p>
     <img class="w-[60%] my-6" src="../assets/sponsor_line.svg" />
     <div class="flex justify-around my-10">
       <img class="w-[10%] mb-auto" src="../assets/two_star.svg" />
       <div class="w-[50%] aspect-[747/416] bg-[url('../../src/assets/sponsor_frame.svg')] bg-contain bg-no-repeat bg-center">
-        <!-- <img src="../assets/atom.svg" /> -->
       </div>
       <img class="w-[10%] rotate-180 mt-auto" src="../assets/two_star.svg" />
     </div>
     <img class="w-[60%] my-6 rotate-180 ml-auto" src="../assets/sponsor_line.svg" />
-  </div>
+  </div> -->
 
   <div class="flex flex-col grid justify-items-center py-[10%]">
     <!-- md -->

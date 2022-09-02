@@ -1,5 +1,5 @@
 <template>
-    <div class="block md:hidden">
+    <div class="block md:hidden pop-window">
         <div class="relative aspect-[244/398] bg-[url('../../src/assets/intro_card_sm.svg')] bg-contain bg-no-repeat bg-center z-20">
         <div class="absolute bottom-0 aspect-[244/108] card-bg w-full mt-[full]"></div>
         <button 
@@ -19,7 +19,7 @@
             {{ companies[selected].intro }}
           </p>
         </div> -->
-        <!-- <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
+        <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
             <img src="../assets/download_btn.svg" class="" />
             <img src="../assets/download_btn.svg" class="" />
           <img src="../assets/intro_card_bottom.svg" class="" />
@@ -28,7 +28,7 @@
             class="aspect-square rounded-full w-[80%]">
             <img src="../assets/download_btn.svg" class="" />
           </button>
-        </div> -->
+        </div>
       </div>
     </div>
   

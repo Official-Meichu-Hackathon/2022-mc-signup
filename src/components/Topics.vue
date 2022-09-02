@@ -4,12 +4,6 @@
     @close-window="closeTopic"
     :selected="choose"
   />
-  <!-- <PopupIntroSm 
-    class="block md:hidden"
-    v-if="isOpen"
-    @close-window="closeTopic"
-    :selected="choose"
-  /> -->
   <div class="flex flex-col grid justify-items-center w-screen">
     <!-- md -->
     <div 
