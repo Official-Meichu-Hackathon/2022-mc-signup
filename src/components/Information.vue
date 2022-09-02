@@ -2,7 +2,7 @@
   <!-- md -->
   <div class="hidden md:block relative w-screen aspect-[1440/1024] mx-auto">
     <p 
-      class="absolute title top-[5.4%] right-[10.9%] text-3xl lg:text-5xl xl:text-6xl "
+      class="absolute title top-[5.4%] right-[10.9%] text-3xl lg:text-5xl xl:text-6xl z-10"
     >
       比賽資訊&lt;&lt;&lt;
     </p>
@@ -21,7 +21,12 @@
     <p class="title text-2xl ml-auto">
       比賽資訊&lt;&lt;&lt;
     </p>
-    <img src="../assets/info_timeline_sm.svg" class="translate-x-[22%] xs:translate-x-[28%] w-[95%] xs:w-[80%]" />
+    <p class="text-white font-bold leading-7 sm:leading-10 tracking-[0.16em] mx-auto my-[2%] text-[0.75rem] sm:text-[1rem]">
+      時間：10/22(六)~10/23(日)
+      <br />
+      地點：清華大學新體育館
+    </p>
+    <img src="../assets/info_timeline_sm.svg" class="translate-x-[25%] sm:translate-x-[28%] w-[70%] sm:w-[80%]" />
   </div>
 
 </template>

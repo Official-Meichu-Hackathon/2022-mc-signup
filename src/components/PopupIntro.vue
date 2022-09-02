@@ -1,5 +1,5 @@
 <template>
-  <div class="pop-window">
+  <div class="hidden md:block pop-window">
       <div class="relative aspect-[738.2/596] bg-[url('../../src/assets/intro_card.svg')] bg-contain bg-no-repeat bg-center z-20">
       <div class="absolute bottom-0 aspect-[736.9/569.45] card-bg w-full mt-[full]"></div>
       <button 
@@ -25,11 +25,14 @@
           <img src="../assets/download_btn.svg" class="" />
         <!-- </div> -->
         <img src="../assets/intro_card_bottom.svg" class="" />
-        <button 
-          @click="LinkToPdf" 
-          class="aspect-square rounded-full w-[80%]">
-          <img src="../assets/download_btn.svg" class="" />
-        </button>
+        <div class="flex flex-col grid justify-items-center">
+          <button 
+            @click="LinkToPdf" 
+            class="aspect-square rounded-full w-[80%] grid justify-items-center">
+            <img src="../assets/download_btn.svg" class="w-[80%] py-3" />
+          </button>
+          <p class="text-white text-xs lg:text-sm">下載 PDF</p>
+        </div>
       </div>
       <!-- <a href="../../src/static/ASML.pdf" >LINKKK</a> -->
     </div>

@@ -2,7 +2,7 @@
   <Transition name="nav">
     <nav
       v-show=nav_show
-      class="fixed top-0 z-10 mx-auto w-screen py-[1%] bg-bgColor"
+      class="fixed top-0 z-10 mx-auto w-screen py-[1%] bg-bgColor z-50"
     >
       <transition name="slide">
         <div class="relative flex items-center justify-around text-white">
@@ -31,7 +31,7 @@
             <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">工作人員</p>
           </button>
           <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">立即報名</p>
+            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">贊助單位</p>
           </button>
         </div>
       </transition>
