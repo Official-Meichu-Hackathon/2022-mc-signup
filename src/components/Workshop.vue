@@ -36,29 +36,6 @@
               >
                 <div class="text-white font-bold underline tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-loose">詳細資訊...</div> 
               </a>
-            <!-- <p class="mt-0 text-white tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose">
-              <br />
-              講師：收收 UI / UX 設計顧問
-              <br />
-              時間：10/15（六） 14:30~17:00
-              <br />
-              地點：清交校內
-              <br />
-              大綱：
-              <br />
-              &emsp;１. Figma 介面教學
-                <br />
-              &emsp;２.專案建置
-                <br />
-              &emsp;３.基礎工具教學
-                <br />
-              &emsp;４.實際 UI 練習
-                <br />
-              &emsp;５.Prototype 頁面連動與展示
-                <br />
-              &emsp;６.RWD 的邏輯應用
-                <br /><br />
-            </p> -->
           </div>
         </div>
       </div>

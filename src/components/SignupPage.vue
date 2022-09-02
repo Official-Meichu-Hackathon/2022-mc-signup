@@ -8,6 +8,7 @@
     <!-- <PopupIntro class="w-[50%] m-auto mb-10 pop-window" /> -->
     <!-- <img src="../assets/test_main_img.svg" class="w-screen" /> -->
     <Prospect class="" />
+    <Sponsor />
     
     <Information />
     <GroupIntro />
@@ -19,6 +20,7 @@
 
     
     <Staff />
+    
   </div>
 
   <SignupBtn class="" />
@@ -39,6 +41,7 @@ import Staff from './Staff.vue'
 import PopupIntro from './PopupIntro.vue';
 import Footer from './Footer.vue';
 import GroupIntro from './GroupIntro.vue';
+import Sponsor from './Sponsor.vue';
 
 // onMounted(() => window.addEventListener('resize', getHeaderHeight))
 
