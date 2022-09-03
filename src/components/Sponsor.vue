@@ -16,6 +16,12 @@
       <p class="text-textColor text-center pt-[3%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
         新竹市政府、新竹市政府創新產業加速中心
       </p>
+      <div class="w-[80%] my-5"> 
+        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
+          <img src="../assets/sponsor/gov1.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/gov2.svg" class="m-[1%]" />
+        </div>
+      </div>
     </div>
 
     <!-- 合作企業 -->
@@ -30,27 +36,43 @@
         <hr class="divider_line col-span-2" />
       </div>
       <div class="flex flex-row items-center">
-        <img src="../assets/sponsor/star1.svg" class="h-[40%]" />
+        <img src="../assets/sponsor/star1.svg" class="h-[40%] ml-2" />
         <p class="text-textColor text-center whitespace-pre-line md:whitespace-nowrap pt-[7%] px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           台灣積體電路製造股份有限公司、意法半導體、中國信託
-          <br />
+          <br class="hidden md:block" />
           ASML、NXP、原相科技、Kronos Research 
         </p>
-        <img src="../assets/sponsor/star1.svg" class="h-[40%]" />
+        <img src="../assets/sponsor/star1.svg" class="h-[40%] mr-2" />
       </div>
       <div class="w-[80%] mt-5"> 
-        <div class="flex justify-center h-[14%] sm:h-[20%] md:h-[25%] lg:h-[30%] xl:h-[40%]"> 
+        <div class="flex justify-center h-[20%] sm:h-[25%] md:h-[30%] lg:h-[35%] xl:h-[45%]"> 
           <img src="../assets/sponsor/tsmc.svg" class="m-[1%]" />
           <img src="../assets/sponsor/st.svg" class="m-[1%]" />
           <img src="../assets/sponsor/asml.svg" class="m-[1%]" />
           <img src="../assets/sponsor/nxp.svg" class="m-[1%]" />
         </div>
-        <div class="flex justify-center h-[14%] sm:h-[20%] md:h-[25%] lg:h-[30%] xl:h-[40%] my-3"> 
+        <div class="flex justify-center h-[20%] sm:h-[25%] md:h-[30%] lg:h-[35%] xl:h-[45%] my-3"> 
           <img src="../assets/sponsor/pxi.svg" class="m-[1%]" />
           <img src="../assets/sponsor/ctbc.svg" class="m-[1%]" />
           <img src="../assets/sponsor/kronos.svg" class="m-[1%]" />
         </div>
       </div>
+      
+      <!-- <div class="block md:hidden w-[80%] mt-5"> 
+        <div class="flex justify-center h-[12%] sm:h-[20%]"> 
+          <img src="../assets/sponsor/tsmc.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/st.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/asml.svg" class="m-[1%]" />
+        </div>
+        <div class="flex justify-center mt-2 h-[12%] sm:h-[20%]"> 
+          <img src="../assets/sponsor/nxp.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/pxi.svg" class="m-[1%]" />
+        </div>
+        <div class="flex justify-center mt-2 h-[12%] sm:h-[20%]"> 
+          <img src="../assets/sponsor/ctbc.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/kronos.svg" class="m-[1%]" />
+        </div>
+      </div> -->
     </div>
 
     <!-- 贊助企業 -->
@@ -81,7 +103,7 @@
         <img src="../assets/sponsor/star2.svg" class="h-[50%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
+        <div class="flex justify-center flex-wrap h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
           <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
           <img src="../assets/sponsor/104.svg" class="m-[1%]" />
           <img src="../assets/sponsor/yahoo.svg" class="m-[1%]" />
@@ -106,10 +128,10 @@
         <img src="../assets/sponsor/star3.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
+        <div class="flex justify-center flex-wrap h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
+          <img src="../assets/sponsor/logitech.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
+          <img src="../assets/sponsor/micron.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
+          <img src="../assets/sponsor/ming.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
         </div>
       </div>
 
@@ -129,10 +151,11 @@
         <img src="../assets/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/yahoo.svg" class="m-[1%]" />
+        <div class="flex justify-center flex-wrap h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
+          <img src="../assets/sponsor/nthu.svg" />
+          <img src="../assets/sponsor/phison.svg" />
+          <img src="../assets/sponsor/hy.svg" />
+          <img src="../assets/sponsor/honhai.svg" class="" />
         </div>
       </div>
 
@@ -180,7 +203,7 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/maicoin.svg" class="m-[1%]" />
         </div>
       </div>
 
@@ -199,8 +222,8 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/TB.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/sanrio.svg" class="m-[1%]" />
         </div>
       </div>
 
@@ -219,8 +242,8 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/hackMd.svg" class="m-[1%]" />
+          <img src="../assets/sponsor/CC.svg" class="m-[1%]" />
         </div>
       </div>
 
@@ -248,7 +271,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          國立陽明交通大學產學運籌中心、財團法人大眾教育基金會董事長簡明仁
+          國立陽明交通大學產學運籌中心、財團法人大眾教育基金會董事長簡明仁、Google
         </p>
       </div>
 
@@ -268,14 +291,14 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          Mai Coin集團
+          電獺股份有限公司、聯利媒體股份有限公司、ETtoday
         </p>
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
+        <div class="flex justify-center flex-wrap h-[30%] max-h-[10rem] sm:max-h-[12rem] md:max-h-[30rem]"> 
+          <img src="../assets/sponsor/aotter.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
+          <img src="../assets/sponsor/TVBS.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
+          <img src="../assets/sponsor/ET.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
         </div>
       </div>
     </div>
@@ -288,7 +311,7 @@
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] ml-[10%] justify-self-start star_move" />
       <img 
         src="../assets/sponsor/sponsor_nxp.svg" 
-        class="w-[60%] md:w-[50%] lg:w-[60%] my-[3%] rounded-[1.25rem]"
+        class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%] rounded-[1.25rem]"
       />
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] mr-[10%] justify-self-end star_move" />
       <div class="flex flex-row-reverse w-full flex items-center">

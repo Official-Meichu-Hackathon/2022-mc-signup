@@ -7,7 +7,9 @@
     </div>
     <div class="h-[3rem]"></div>
 
-    <div class="grid grid-cols-3 gap-[2%] w-[80%]">
+    <!-- md -->
+    <div class="hidden md:block w-full ">
+      <div class="grid grid-cols-3 gap-[2%] w-[90%] lg:w-[80%] mx-auto">
       <div class="relative aspect-[381/217]">
         <img class="w-full absolute z-0" src="../assets/small_border.svg" />
         <div class="flex flex-col justify-around p-3 lg:p-6 xl:p-10 aspect-[381/217]">
@@ -26,7 +28,7 @@
             <img class="aspect-square w-[20%]" src="../assets/circle2.svg" />
             <p class="pl-[3%] text-xs lg:text-sm xl:text-lg text-white">10/3（一） 23:59 前</p>
           </div>
-          <p class="w-full text-lg lg:text-xl xl:text-3xl text-white text-center">正取隊伍與所屬企業公布</p>
+          <p class="w-full text-base md:text-lg lg:text-xl xl:text-2xl text-white text-center whitespace-nowrap">正取隊伍與所屬企業公布</p>
         </div>
       </div>
 
@@ -42,11 +44,19 @@
 
       </div>
     </div>
+    </div>
+
+    <!-- sm -->
+    <div class="block md:hidden w-[70%]">
+      <img src="../assets/signupSm.svg" class="mx-auto w-[90%]" />
+    </div>
+
+
     <div class="h-[2.5rem]"></div>
-    <div class="relative aspect-[1213/818] w-[80%]">
+    <div class="relative aspect-[1213/818] w-[90%] lg:w-[80%]">
       <img class="absolute w-full" src="../assets/big_border.svg" />
       <div class="absolute bg-[#B288901A] w-[97%] h-[97%] right-0 left-0 bottom-0 mx-auto"></div>
-      <div class="absolute px-[7em] h-[90%] left-[7em] top-0 bottom-0 my-auto indent-[-7em] text-white font-medium leading-6 text-xs lg:leading-8 lg:text-base xl:leading-10 xl:text-xl align-middle overflow-y-auto">
+      <div class="absolute px-[7em] h-[90%] left-[2em] w-full md:w-auto md:left-[7em] top-0 bottom-0 my-auto indent-[-7em] text-white font-medium leading-6 text-xs lg:leading-8 lg:text-base xl:leading-10 xl:text-xl align-middle overflow-y-auto">
         <p>
           ● 報名費用&ensp;｜&ensp;＄600 / 人（須另繳保證金 $200）
           <br />
@@ -95,7 +105,7 @@
           <br />
           得獎隊伍需要將作品上傳到
           <a 
-              href="https://tenyear.meichuhackathon.org/"
+              href="https://tenyear.meichuhackathon.org/team"
               target="_blank" 
               class="underline font-bold"
               >

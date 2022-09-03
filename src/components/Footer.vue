@@ -8,7 +8,7 @@
       </div>
       <div class="flex space-x-2">
         <a href="https://tenyear.meichuhackathon.org/" target="_blank" class="flex items-center">
-          <p class="text-white text-[0.01rem] md:text-[1rem] font-semibold whitespace-nowrap" >十周年召集令</p>
+          <p class="text-white text-[0.01rem] md:text-[1rem] font-semibold whitespace-nowrap" >十週年召集令</p>
         </a>
         <a href="https://www.facebook.com/HackMeiChu/" target="_blank">
           <img

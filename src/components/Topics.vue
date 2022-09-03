@@ -25,7 +25,23 @@
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">黑客組</p>
     </div>
 
-    <div class="flex justify-between items-center w-[90%] pt-5">
+    <!-- md TopicList -->
+    <div class="hidden md:block my-[3%] w-[80%] lg:w-[90%]">
+      <div id="" class="flex justify-around flex-wrap mx-auto">
+        <button 
+          @click="openTopic(index)" 
+          v-for="(item, index) in monitorList" 
+          :key="item.id" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-no-repeat "
+        >
+          <img :src="imgList[index]" class="bg-white rounded-full aspect-square w-full" />
+        </button>
+      </div>
+
+    </div>
+
+    <!-- sm TopicList -->
+    <div class="block md:hidden flex justify-between items-center w-[90%] pt-5">
       <button @click="scrollLeft" class="mx-3 py-12 w-[8%] md:w-auto">
         <img class="w-full animate-pulse" src="../assets/arrow_btn.svg" id="leftBtn" />
       </button>
@@ -64,15 +80,12 @@
 <script>
 import { ref, onMounted } from 'vue';
 import PopupIntro from './PopupIntro.vue';
-import PopupIntroSm from './PopupIntroSm.vue';
 export default {
-  components: { PopupIntro, PopupIntroSm },
+  components: { PopupIntro },
   setup() {
     const isOpen = ref(false)
     const choose = ref('')
     const monitorList = ref([])
-    const leftArrow = ref(false)
-    const rightArrow = ref(true)
     const imgList = ['../../src/assets/tsmc.svg', '../../src/assets/ST.svg','../../src/assets/asml.svg','../../src/assets/nxp.svg','../../src/assets/pxi.svg','../../src/assets/ctbc.svg','../../src/assets/kronos.svg' ]
 
     for (let i = 1; i < 8; i++) {
@@ -83,14 +96,6 @@ export default {
       })
     }
     
-    // const moveList = () => {
-    //   if (rightArrow.value) {
-    //     document.getElementById('rightBtn').style.animation = "pulse 1s infinite"
-    //   }
-    //   if (leftArrow.value) {
-    //     document.getElementById('leftBtn').style.animation = "pulse 1s infinite"
-    //   }
-    // }
 
 
     const openTopic = (index) => {
@@ -100,7 +105,7 @@ export default {
 
     const closeTopic = (val) => {
       isOpen.value = !(val)
-      document.getElementById()
+      // document.getElementById()
     }
 
     const scrollLeft = () => {
@@ -108,21 +113,14 @@ export default {
         const itemLength = listEl.clientWidth / 7
         const boxLength = document.getElementById('list-box').clientWidth
         const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
-        if (leftMove + boxLength - (itemLength*2) < boxLength) {
+        if (leftMove + boxLength - (itemLength*1) < boxLength) {
           // to start
           listEl.style.left = '0px'
-          listEl.style.transition = "left 1s"
-          console.log("type1")
-          leftArrow.value = false;
-          rightArrow.value = true;
+          listEl.style.transition = "left 0.7s"
         } else {
-          listEl.style.left = '-' + (leftMove - (itemLength*2)) + 'px'
-          listEl.style.transition = "left 1s"
-          console.log('type2')
-          leftArrow.value = true;
-          rightArrow.value = true;
+          listEl.style.left = '-' + (leftMove - (itemLength*1)) + 'px'
+          listEl.style.transition = "left 0.7s"
         }
-        moveList();
       }
     
     const scrollRight = () => {
@@ -132,20 +130,13 @@ export default {
       const boxLength = document.getElementById('list-box').clientWidth
       if (allLength < boxLength) return
       const leftMove = Math.abs(parseInt(window.getComputedStyle(listEl, null)?.left))
-      if (leftMove + boxLength + (itemLength*2) > allLength) {
+      if (leftMove + boxLength + (itemLength*1) > allLength) {
         listEl.style.left = '-' + (allLength - boxLength) + 'px'
-        listEl.style.transition = "left 1s"
-        console.log("hehr")
-        leftArrow.value = true;
-        rightArrow.value = false;
+        listEl.style.transition = "left 0.7s"
       } else {
-        listEl.style.left = '-' + (leftMove + (itemLength*2)) + 'px'
-        listEl.style.transition = "left 1s"
-        console.log("hehr")
-        rightArrow.value = true;
-        leftArrow.value = true
+        listEl.style.left = '-' + (leftMove + (itemLength*1)) + 'px'
+        listEl.style.transition = "left 0.7s"
       }
-      moveList();
     }
     
 

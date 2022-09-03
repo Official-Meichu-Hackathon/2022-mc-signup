@@ -6,32 +6,11 @@
     >
       <transition name="slide">
         <div class="relative flex items-center justify-around text-white">
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">活動願景</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">比賽資訊</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">組別介紹</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">如何報名</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">工作坊</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">獎項資訊</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">競賽題目</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">工作人員</p>
-          </button>
-          <button>
-            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">贊助單位</p>
+          <button 
+            v-for="(item, index) in content" :key="index"
+            @click="$emit('jumpTo', index)" 
+          >
+            <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">{{ item }}</p>
           </button>
         </div>
       </transition>
@@ -43,6 +22,7 @@
 <script setup>
 import { ref,onMounted } from 'vue'
 const nav_show = ref(true)
+const content = ['活動願景', '比賽資訊', '組別介紹', '如何報名', '工作坊', '獎項資訊', '競賽題目', '贊助單位', '工作人員']
 let temp
 
 onMounted(() => window.addEventListener('scroll', handleScroll))
