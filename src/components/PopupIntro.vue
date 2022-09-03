@@ -25,6 +25,12 @@
         >
           感謝Google Cloud 贊助本組運算資源
         </p>
+        <p
+          v-if="selected == 0"
+          class="card-text text-[1rem] whitespace-pre-line"
+        >
+          備註：提供競賽前三名優先的正職及實習面試資格
+        </p>
       </div>
       <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
         <!-- <div class="flex justify-between"> -->
@@ -87,6 +93,12 @@
         >
           感謝Google Cloud 贊助本組運算資源
         </p>
+        <p
+          v-if="selected == 0"
+          class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line"
+        >
+          備註：提供競賽前三名優先的正職及實習面試資格
+        </p>
       </div>
 
     </div>
@@ -107,7 +119,7 @@ export default {
       {
         name: '台灣積體電路製造股份有限公司',
         topic: '主題：Safety Helmet Wearing Detection',
-        intro: '說明：這次題目期望能建立準確偵測員工是否有配戴工地帽的AI模型,同時,串接雲端應用程式,確保工地安全,當AI模型判別出員工在危險區域並未配戴安全帽時,系統自動做出及時的action或alert。\n此外,參賽者也可以結合軟硬體,做出額外的延伸應用(本組不提供硬體配件,若有需要請參賽者自行準備)。\n\n備註：提供競賽前三名優先的正職及實習面試資格',
+        intro: '說明：這次題目期望能建立準確偵測員工是否有配戴工地帽的AI模型,同時,串接雲端應用程式,確保工地安全,當AI模型判別出員工在危險區域並未配戴安全帽時,系統自動做出及時的action或alert。\n此外,參賽者也可以結合軟硬體,做出額外的延伸應用(本組不提供硬體配件,若有需要請參賽者自行準備)。',
         link: '../../src/static/tsmc.pdf',
         img: ['../../src/assets/tsmc.svg', '../../src/assets/google_cloud.svg']
       },
@@ -153,6 +165,13 @@ export default {
         link: '../../src/static/Kronos.pdf',
         img: ['../../src/assets/kronos.svg', '']
       },
+      {
+        name: '創客交流組',
+        topic: '主題：發揮公私協力，打造包容丶靭性丶永續丶安全的智慧新竹！',
+        intro: '說明：新冠疫情丶氣候變遷丶快速變化的政經局勢，刺激著社會及青年世代不斷地反思，聯合國「2030永續發展目標」（Sustainable Development Goals, SDG ），SDGs 目標 11 是「建構具包容、安全、韌性及永續特質的城市與鄉村」，世界各大城市也紛紛朝此目標努力！\n創客交流組期望報名團隊能夠以永續發展目標為題，洞察市民生活、校園生活中的關鍵議題，融入公私協力精神，發想創意並提出解決方案，共同合作打造包容丶靭性丶永續丶安全的智慧新竹！',
+        link: '',
+        img: ['../../src/assets/gov.svg', '']
+      }
     ]
     function LinkToPdf() {
       console.log("LinkToPdf", props.selected)

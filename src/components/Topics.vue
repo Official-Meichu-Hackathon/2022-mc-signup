@@ -69,9 +69,15 @@
       <img class="h-10" src="../assets/star.svg" />
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">創客交流組</p>
     </div>
-    <p class="text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.04em] flex justify-self-start pl-[8%] pt-5">
+    <button 
+      @click="openTopic(7)" 
+      class="w-[7.5rem] mx-[1rem] pt-5 ml-0 md:ml-[10%] justify-self-center md:justify-self-start rounded-full aspect-square bg-cover bg-no-repeat "
+    >
+      <img :src="imgList[7]" class="bg-white rounded-full aspect-square w-full" />
+    </button>
+    <!-- <p class="text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.04em] flex justify-self-start pl-[8%] pt-5">
       交流組的參賽者自訂題目，以不同的角度切入問題，提供更加多元的解決方案。
-    </p>
+    </p> -->
 
 
   </div>
@@ -86,7 +92,7 @@ export default {
     const isOpen = ref(false)
     const choose = ref('')
     const monitorList = ref([])
-    const imgList = ['../../src/assets/tsmc.svg', '../../src/assets/ST.svg','../../src/assets/asml.svg','../../src/assets/nxp.svg','../../src/assets/pxi.svg','../../src/assets/ctbc.svg','../../src/assets/kronos.svg' ]
+    const imgList = ['../../src/assets/tsmc.svg', '../../src/assets/ST.svg','../../src/assets/asml.svg','../../src/assets/nxp.svg','../../src/assets/pxi.svg','../../src/assets/ctbc.svg','../../src/assets/kronos.svg', '../../src/assets/gov.svg' ]
 
     for (let i = 1; i < 8; i++) {
       monitorList.value.push({
