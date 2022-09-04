@@ -17,9 +17,9 @@
         新竹市政府、新竹市政府創新產業加速中心
       </p>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/gov1.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/gov2.svg" class="m-[1%]" />
+        <div class="flex justify-center"> 
+          <img src="../assets/sponsor/gov1.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/gov2.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
     </div>
@@ -45,34 +45,16 @@
         <img src="../assets/sponsor/star1.svg" class="h-[40%] mr-2" />
       </div>
       <div class="w-[80%] mt-5"> 
-        <div class="flex justify-center h-[20%] sm:h-[25%] md:h-[30%] lg:h-[35%] xl:h-[45%]"> 
-          <img src="../assets/sponsor/tsmc.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/st.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/asml.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/nxp.svg" class="m-[1%]" />
-        </div>
-        <div class="flex justify-center h-[20%] sm:h-[25%] md:h-[30%] lg:h-[35%] xl:h-[45%] my-3"> 
-          <img src="../assets/sponsor/pxi.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/ctbc.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/kronos.svg" class="m-[1%]" />
+        <div class="flex justify-center flex-wrap"> 
+          <img src="../assets/sponsor/tsmc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/st.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/asml.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/nxp.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/pxi.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/ctbc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/kronos.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
-      
-      <!-- <div class="block md:hidden w-[80%] mt-5"> 
-        <div class="flex justify-center h-[12%] sm:h-[20%]"> 
-          <img src="../assets/sponsor/tsmc.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/st.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/asml.svg" class="m-[1%]" />
-        </div>
-        <div class="flex justify-center mt-2 h-[12%] sm:h-[20%]"> 
-          <img src="../assets/sponsor/nxp.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/pxi.svg" class="m-[1%]" />
-        </div>
-        <div class="flex justify-center mt-2 h-[12%] sm:h-[20%]"> 
-          <img src="../assets/sponsor/ctbc.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/kronos.svg" class="m-[1%]" />
-        </div>
-      </div> -->
     </div>
 
     <!-- 贊助企業 -->
@@ -103,12 +85,12 @@
         <img src="../assets/sponsor/star2.svg" class="h-[50%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center flex-wrap h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/yahoo.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/tree.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/phone.svg" class="m-[1%]" />
+        <div class="flex justify-center flex-wrap"> 
+          <img src="../assets/sponsor/Line.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/104.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/yahoo.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/tree.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/phone.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
 
@@ -128,10 +110,10 @@
         <img src="../assets/sponsor/star3.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center flex-wrap h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/logitech.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
-          <img src="../assets/sponsor/micron.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
-          <img src="../assets/sponsor/ming.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
+        <div class="flex justify-center flex-wrap"> 
+          <img src="../assets/sponsor/logitech.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/micron.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/ming.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
 
@@ -151,11 +133,11 @@
         <img src="../assets/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center flex-wrap h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/nthu.svg" />
-          <img src="../assets/sponsor/phison.svg" />
-          <img src="../assets/sponsor/hy.svg" />
-          <img src="../assets/sponsor/honhai.svg" class="" />
+        <div class="flex justify-center flex-wrap"> 
+          <img src="../assets/sponsor/nthu.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/phison.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/hy.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/honhai.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
 
@@ -202,8 +184,8 @@
         </p>
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/maicoin.svg" class="m-[1%]" />
+        <div class="flex justify-center"> 
+          <img src="../assets/sponsor/maicoin.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
 
@@ -221,9 +203,9 @@
         </p>
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/TB.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/sanrio.svg" class="m-[1%]" />
+        <div class="flex justify-center"> 
+          <img src="../assets/sponsor/TB.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/sanrio.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
 
@@ -241,9 +223,9 @@
         </p>
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]"> 
-          <img src="../assets/sponsor/hackMd.svg" class="m-[1%]" />
-          <img src="../assets/sponsor/CC.svg" class="m-[1%]" />
+        <div class="flex justify-center"> 
+          <img src="../assets/sponsor/hackMd.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/CC.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
 
@@ -295,10 +277,10 @@
         </p>
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center flex-wrap h-[30%] max-h-[10rem] sm:max-h-[12rem] md:max-h-[30rem]"> 
-          <img src="../assets/sponsor/aotter.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
-          <img src="../assets/sponsor/TVBS.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
-          <img src="../assets/sponsor/ET.svg" class="m-[1.8%] h-[60%] sm:h-[55%] md:h-[65%] lg:h-[80%] xl:h-[90%]" />
+        <div class="flex justify-center flex-wrap"> 
+          <img src="../assets/sponsor/aotter.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/TVBS.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="../assets/sponsor/ET.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
         </div>
       </div>
     </div>

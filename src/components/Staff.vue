@@ -10,11 +10,11 @@
       <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">工作人員</p>
     </div>
 
-    <div class="basis-auto grid grid-cols-1 lg:grid-cols-2 gap-[2%] md:gap-[8%] w-[80%] xl:w-[70%] mt-[5%]">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-[2%] md:gap-[8%] w-[80%] xl:w-[70%] mt-[5%]">
       <div v-for="dept in staffList" :key="dept" class="flex flex-row items-center">
-        <img :src="dept.img" class="w-[8rem] mr-3" />
+        <img :src="dept.img" class="w-[4rem] md:w-[8rem] lg:w-[10rem] mr-3 my-3" />
         <div class="basis-auto flex flex-row flex-wrap">
-          <p class="StaffName" v-for="name in dept.staff" :key="name">
+          <p class="StaffName text-xs leading-5 sm:text-sm md:text-base md:leading-7 lg:text-lg" v-for="name in dept.staff" :key="name">
             {{
               name === ' '
                 ? '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'
@@ -51,8 +51,8 @@ export default {
 <style>
 .StaffName {
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 2.75rem;
+  /* font-size: 1rem; */
+  /* line-height: 2.75rem; */
   /* or 250% */
 
   letter-spacing: 0.1em;
