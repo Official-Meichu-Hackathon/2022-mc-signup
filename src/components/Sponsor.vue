@@ -1,9 +1,9 @@
 <template>
-  <div class="flex flex-col w-screen">
+  <div class="flex flex-col w-screen mt-16">
     <p class="pink-title my-10 text-3xl lg:text-5xl xl:text-6xl ml-[10%]" >>>>贊助單位</p>
 
     <!-- 創客交流組合作單位 -->
-    <div class="flex flex-col grid justify-items-center pt-[8%]">
+    <div class="flex flex-col grid justify-items-center pt-[3%]">
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line" />
         <div 

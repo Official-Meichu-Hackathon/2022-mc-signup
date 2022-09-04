@@ -1,18 +1,17 @@
 <template>
   <!-- <Transition name="nav"> -->
     <nav
-      class="fixed top-0 z-10 mx-auto w-screen py-[1%] bg-bgColor z-50"
+      class="fixed top-0 z-10 mx-auto w-screen py-[0.5%] px-[1%] bg-bgColor z-50"
       id="nav"
       >
       <!-- <transition name="slide"> -->
         <div class=" flex items-center justify-around text-white"> 
-          <router-link
+          <button
             v-for="(item, index) in content" :key="index"
             @click="$emit('jumpTo', index)" 
-            :to="'#block'+index"
           >
             <p class="nav_text text-lg lg:text-xl xl:text-2xl hover:text-shadow">{{ item }}</p>
-          </router-link>
+          </button>
         </div>
 
         <!-- <div class="relative flex items-center justify-around text-white">

@@ -34,15 +34,15 @@
       </div>
       <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
         <!-- <div class="flex justify-between"> -->
-          <img :src="companies[selected].img[0]" class="max-w-[3rem] lg:max-w-[5rem] xl:max-w-[7rem] min-w-[30px]" />
-          <img :src="companies[selected].img[1]"  class="max-w-[3rem] lg:lg:max-w-[5rem] xl:max-w-[7rem] min-w-[30px]" />
+          <img :src="companies[selected].img[0]" class="max-w-[4rem] lg:max-w-[6rem] xl:max-w-[10rem] min-w-[30px] h-full" />
+          <img v-if="selected == 0" :src="companies[selected].img[1]"  class="max-w-[3rem] lg:lg:max-w-[5rem] xl:max-w-[10rem] min-w-[30px] h-full" />
         <!-- </div> -->
         <img src="../assets/intro_card_bottom.svg" class="w-full" />
-        <div class="flex flex-col grid justify-items-center">
+        <div v-if="selected != 7" class="flex flex-col grid justify-items-center">
           <button 
             @click="LinkToPdf" 
             class="aspect-square rounded-full w-[80%] grid justify-items-center max-w-[3rem] lg:max-w-[5rem] xl:max-w-[7rem]">
-            <img src="../assets/download_btn.svg" class="w-[80%] py-3" />
+            <img src="../assets/download_btn.svg" class="w-[80%] lg:min-w-[40px] xl:min-w-[60px] py-3" />
           </button>
           <p class="text-white text-xs lg:text-sm">下載 PDF</p>
         </div>
@@ -57,10 +57,10 @@
       <div class="absolute aspect-[244/98] flex items-center flex-col bottom-0 left-0 right-0 w-[90%] mx-auto">
         <div class="flex justify-between h-[40%] w-[90%]"> 
           <div class="flex flex-row"> 
-            <img :src="companies[selected].img[0]" class="w-[30%] mr-5 max-w-[2rem]" />
-            <img :src="companies[selected].img[1]"  class="w-[30%] mr-5 max-w-[2rem]" />
+            <img :src="companies[selected].img[0]" class="mr-5 max-w-[3rem] min-w-[85px]" />
+            <img v-if="selected == 0" :src="companies[selected].img[1]"  class="-ml-5 max-w-[3rem] min-w-[85px] " />
           </div>
-          <div class="flex flex-col grid justify-items-center content-center">
+          <div v-if="selected != 7" class="flex flex-col grid justify-items-center content-center">
             <button 
               @click="LinkToPdf" 
               class="aspect-square rounded-full grid justify-items-center max-w-[2.3rem]">
@@ -78,7 +78,7 @@
         <img class="w-full" src="../assets/cross.svg" />
       </button>
       <div class="absolute w-[90%] top-[7%] left-0 right-0 mx-auto aspect-[213/250] overflow-y-auto">
-        <p class="card-text pt-5 px-2 text-[1.5rem] font-bold whitespace-pre-line">
+        <p class="card-text pt-5 px-2 text-[1.25rem] font-bold whitespace-pre-line">
           {{ companies[selected].name }}
         </p>
         <br />
@@ -166,7 +166,7 @@ export default {
         img: ['../../src/assets/kronos.svg', '']
       },
       {
-        name: '創客交流組',
+        name: '新竹市政府',
         topic: '主題：發揮公私協力，打造包容丶靭性丶永續丶安全的智慧新竹！',
         intro: '說明：新冠疫情丶氣候變遷丶快速變化的政經局勢，刺激著社會及青年世代不斷地反思，聯合國「2030永續發展目標」（Sustainable Development Goals, SDG ），SDGs 目標 11 是「建構具包容、安全、韌性及永續特質的城市與鄉村」，世界各大城市也紛紛朝此目標努力！\n創客交流組期望報名團隊能夠以永續發展目標為題，洞察市民生活、校園生活中的關鍵議題，融入公私協力精神，發想創意並提出解決方案，共同合作打造包容丶靭性丶永續丶安全的智慧新竹！',
         link: '',
@@ -229,12 +229,13 @@ export default {
 
 .pop-windowSm {
   position: fixed;
-  top: 5%;
-  bottom: 10%;
+  top: 2%;
+  bottom: 15%;
   left: 0;
   right: 0;
   z-index: 999;
   margin: auto;
-  width: 70%;
+  max-height: 70%;
+  width: 80%;
 }
 </style>

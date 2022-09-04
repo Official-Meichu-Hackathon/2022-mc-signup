@@ -1,6 +1,6 @@
 <template>
   <!-- md -->
-  <div class="w-[90%] mx-auto hidden md:block">
+  <div id="block2" class="w-[90%] mx-auto hidden md:block">
     <p class="pink-title my-10 text-3xl lg:text-5xl xl:text-6xl" >>>>組別介紹</p>
     <div class="grid grid-cols-2 w-full ">
       <div class="relative aspect-[598/638] mx-[1%] pt-3" id="groupImg">
@@ -10,7 +10,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col justify-between mx-[1%]" id="groupIntro"> 
+      <div class="flex flex-col justify-between mx-[1%] h-[101.5%] xl:h-[101%]" id="groupIntro"> 
         <div class="aspect-[620/327] relative">
           <img src="../assets/hacker_frame.svg" class="w-full aspect-[620/327]" />
           <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto"> 
@@ -42,15 +42,15 @@
   </div>
 
   <!-- sm -->
-  <div class="block md:hidden w-[90%] mx-auto">
+  <div class="block md:hidden w-[80%] mx-auto">
     <p class="pink-title my-3 text-2xl" >>>>組別介紹</p>
     <div class="flex flex-col grid justify-items-center w-full">
-      <div class="bg-[url('../../src/assets/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[90%] sm:w-[70%]">
+      <div class="bg-[url('../../src/assets/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
         <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto">
-          <p class="intro-name text-base">
+          <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[0].name }}
           </p>
-          <p class="intro-content text-sm">
+          <p class="intro-content text-xs sm:text-base">
             {{ intro[0].content }}
             <b>
               {{intro[0].company}}
@@ -58,18 +58,18 @@
           </p>
         </div>
       </div>
-      <div class="bg-[url('../../src/assets/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[90%] sm:w-[70%]">
+      <div class="bg-[url('../../src/assets/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
         <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto">
-          <p class="intro-name text-base">
+          <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[1].name }}
           </p>
-          <p class="intro-content text-sm">
+          <p class="intro-content text-xs sm:text-base">
             {{ intro[1].content }}
           </p>
         </div>
       </div>
     </div>
-    <img src="../assets/bg_box.svg" class="-mt-[12%] ml-[80%] sm:ml-[70%] w-[15%]" />
+    <img src="../assets/bg_box.svg" class="-mt-[12%] ml-[85%] sm:-mt-[16%] sm:ml-[80%] w-[20%]" />
   </div>
 
 </template>

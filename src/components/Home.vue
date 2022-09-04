@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block relative aspect-[1440/715] w-screen overflow-x-hidden overflow-y-visible z-10">
+  <div class="hidden md:block relative aspect-[1440/715] w-screen overflow-x-hidden overflow-y-hidden">
     <img src="../assets/home/home-bg.svg"
       class="absolute w-full top-0 bottom-0"
     />
@@ -24,7 +24,7 @@
     />
     <img 
       src="../assets/home/icon-lb2.svg"
-      class="absolute scale origin-top-right w-[4.5%] left-[33.4%] right-[56.8%] top-[59.6%] bottom-[24%] m-auto z-50"
+      class="absolute scale origin-top-right w-[4.5%] left-[33.4%] right-[56.8%] top-[59.6%] bottom-[24%] m-auto"
     />
     <img
       src="../assets/home/icon-l.svg"
@@ -71,7 +71,7 @@
     />
     <img 
       src="../assets/home/t-r.svg "
-      class="absolute scale origin-left w-[12%] left-[35.4%] right-[45.8%] top-[48.6%] bottom-[30%] pl-[6%]"
+      class="absolute scale origin-left w-[12%] left-[35.4%] right-[45.8%] top-[48.6%] bottom-[30%] pl-[6%] z-10"
     />
   </div>
 </template>

@@ -1,8 +1,8 @@
 <template>
   <!-- md -->
-  <div class="hidden md:block relative w-screen aspect-[1440/1024] mx-auto">
+  <div id="block1" class="hidden md:block relative w-screen aspect-[1440/1024] mx-auto">
     <p 
-      class="absolute title top-[5.4%] right-[10.9%] text-3xl lg:text-5xl xl:text-6xl z-10"
+      class="absolute title top-[5.4%] right-[10.9%] mx-auto text-3xl lg:text-5xl xl:text-6xl z-10"
     >
       比賽資訊&lt;&lt;&lt;
     </p>
@@ -21,11 +21,11 @@
   </div>
 
   <!-- sm -->
-  <div class="block md:hidden flex flex-col w-[90%] mx-auto">
+  <div class="block md:hidden flex flex-col w-[80%] mx-auto">
     <p class="title text-2xl ml-auto">
       比賽資訊&lt;&lt;&lt;
     </p>
-    <p class="text-white font-bold leading-7 sm:leading-10 tracking-[0.16em] mx-auto my-[2%] text-[0.75rem] sm:text-[1rem]">
+    <p class="text-white font-bold leading-7 sm:leading-10 tracking-[0.16em] mx-auto my-[2%] text-xs sm:text-sm">
       時間：10/22(六)~10/23(日)
       <br />
       地點：清華大學新體育館

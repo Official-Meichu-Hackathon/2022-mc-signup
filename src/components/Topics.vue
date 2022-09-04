@@ -4,7 +4,7 @@
     @close-window="closeTopic"
     :selected="choose"
   />
-  <div class="flex flex-col grid justify-items-center w-screen">
+  <div id="block6" class="flex flex-col grid justify-items-center w-screen mt-16">
     <!-- md -->
     <div 
       class="hidden md:block aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"

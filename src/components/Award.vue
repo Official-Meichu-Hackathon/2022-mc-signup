@@ -1,7 +1,7 @@
 <template>
 
   <!-- 獎項資訊 md -->
-  <div class="hidden md:block w-screen">
+  <div class="hidden md:block w-screen" id="block5">
     <div class="flex flex-col grid justify-items-center mt-[10%] mx-auto w-[80%]">
       <div class="flex flex-row items-center mb-[5%]">
         <img src="../assets/atom.svg" class="h-10" />
@@ -54,7 +54,7 @@
   </div>
 
   <!-- 獎項資訊 sm -->
-  <div class="block md:hidden w-screen grid justify-items-center">
+  <div id="award" class="block md:hidden w-screen grid justify-items-center">
     <div class="w-[70%] flex flex-row grid justify-items-center mt-[10%]">
       <div class="flex flex-row items-center mb-[5%]">
         <img src="../assets/atom.svg" class="h-10" />

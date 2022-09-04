@@ -7,10 +7,9 @@
     @jumpTo = "GoToPage($event)"
   />
   <Footer />
-  <div class="hidden md:block"></div>
 
-  <div class="w-screen bg-bgColor py-20 overflow-y-hidden" id="home">
-    <div class="h-[300px]"></div>
+  <div class="w-screen bg-bgColor py-0 md:py-20 overflow-x-hidden" id="home">
+    <!-- <div class="h-[300px]"></div> -->
     <Home /> 
     <Prospect id="block0" />
     <Information id="block1" />
@@ -70,14 +69,14 @@ import Home from './Home.vue';
 const GoToPage = (id) => {
   const element = document.getElementById("block" + id)
   console.log(element.style.height)
-  // const headerOffset = 150
-  // const elementPosition = element.getBoundingClientRect().top
-  // const offsetPosition = elementPosition + window.pageYOffset - headerOffset
-  // console.log("elementPosition: ", elementPosition)
-  // window.scrollTo({
-  //       top: offsetPosition,
-  //       behavior: 'smooth',
-  //     })
+  const headerOffset = 150
+  const elementPosition = element.getBoundingClientRect().top
+  const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+  console.log("elementPosition: ", elementPosition)
+  window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      })
 }
 // const GoToPage = (index) => {
 //   scroll("block" + index)
