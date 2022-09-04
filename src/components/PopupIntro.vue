@@ -174,7 +174,6 @@ export default {
       }
     ]
     function LinkToPdf() {
-      console.log("LinkToPdf", props.selected)
       window.open(companies[props.selected].link, '_blank')
     }
     return {

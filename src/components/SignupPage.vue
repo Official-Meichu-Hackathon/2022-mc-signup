@@ -12,12 +12,12 @@
     <!-- <div class="h-[300px]"></div> -->
     <Home /> 
     <Prospect id="block0" />
-    <Information id="block1" />
-    <GroupIntro id="block2" />
+    <Information />
+    <GroupIntro />
     <HowToSignup id="block3" />
     <Workshop id="block4" />
-    <Award id="block5" />
-    <Topics id="block6" />
+    <Award />
+    <Topics />
     <Sponsor id="block7" />
     <Staff id="block8" />
     
@@ -47,11 +47,9 @@ import Home from './Home.vue';
 
 const GoToPage = (id) => {
   const element = document.getElementById("block" + id)
-  console.log(element.style.height)
   const headerOffset = 100
   const elementPosition = element.getBoundingClientRect().top
   const offsetPosition = elementPosition + window.pageYOffset - headerOffset
-  console.log("elementPosition: ", elementPosition)
   window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth',
