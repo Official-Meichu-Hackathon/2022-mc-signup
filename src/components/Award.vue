@@ -98,7 +98,7 @@
 
       </div>
 
-      <p class="mt-8 sm:mt-12 text-white text-xs leading-loose tracking-[0.1em]">
+      <p class="mt-12 text-white text-xs leading-loose tracking-[0.1em]">
         ✧ 今年是梅竹黑客松邁入第十年之際，因此我們在競賽中加碼獎金並增設獎項！希望能和參賽者一同見證這個值得紀念的時刻。 ✧
       </p>
 

@@ -7,7 +7,7 @@
 
     <!-- sm -->
     <div class="block md:hidden aspect-[201/102] bg-[url('/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
-      <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">工作人員</p>
+      <p class="pink-title text-center text-xl sm:text-2xl pb-5 whitespace-pre-line">工作人員</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-[2%] md:gap-[8%] w-[80%] xl:w-[70%] mt-[5%]">
