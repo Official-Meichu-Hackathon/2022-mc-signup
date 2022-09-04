@@ -44,32 +44,11 @@ import GroupIntro from './GroupIntro.vue';
 import Sponsor from './Sponsor.vue';
 import Award from './Award.vue'
 import Home from './Home.vue';
-// onMounted(() => window.addEventListener('resize', getHeaderHeight))
-
-// function getHeaderHeight() {
-//   // let headerHeight = document.getElementsByName('headerMd').clientHeight;
-//   let headerHeight = ('#headerMd').clientHeight;
-//   console.log("height: ", headerHeight)
-// }
-
-// window.addEventListener("scroll", function() {
-//   const GoToPage = (id) => {
-//   const element = document.getElementById("block" + id)
-//   const headerOffset = 150
-//   const elementPosition = element.getBoundingClientRect().top
-//   const offsetPosition = elementPosition + window.pageYOffset - headerOffset
-//   console.log("elementPosition: ", elementPosition)
-//   window.scrollTo({
-//         top: offsetPosition,
-//         behavior: 'smooth',
-//       })
-// }
-// })
 
 const GoToPage = (id) => {
   const element = document.getElementById("block" + id)
   console.log(element.style.height)
-  const headerOffset = 150
+  const headerOffset = 100
   const elementPosition = element.getBoundingClientRect().top
   const offsetPosition = elementPosition + window.pageYOffset - headerOffset
   console.log("elementPosition: ", elementPosition)
@@ -78,9 +57,6 @@ const GoToPage = (id) => {
         behavior: 'smooth',
       })
 }
-// const GoToPage = (index) => {
-//   scroll("block" + index)
-// }
 
 </script>
 
