@@ -7,7 +7,7 @@
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line" />
         <div 
-          class="ml-1 aspect-[634/125] bg-[url('../../src/assets/sponsor/frame-l.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[80%]"
+          class="ml-1 aspect-[634/125] bg-[url('/sponsor/frame-l.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[80%]"
         >
           <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">&thinsp;創客交流組合作單位</p>
         </div>
@@ -29,7 +29,7 @@
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('../../src/assets/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
           <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">合作企業&thinsp;</p>
         </div>
@@ -62,7 +62,7 @@
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('../../src/assets/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
           <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">贊助企業&thinsp;</p>
         </div>
@@ -163,7 +163,7 @@
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('../../src/assets/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
           <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">特殊贊助&thinsp;</p>
         </div>
@@ -265,7 +265,7 @@
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('../../src/assets/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
           <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">媒體合作夥伴&thinsp;</p>
         </div>

@@ -45,7 +45,7 @@
   <div class="block md:hidden w-[80%] mx-auto">
     <p class="pink-title my-3 text-2xl" >>>>組別介紹</p>
     <div class="flex flex-col grid justify-items-center w-full">
-      <div class="bg-[url('../../src/assets/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
+      <div class="bg-[url('/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
         <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto">
           <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[0].name }}
@@ -58,7 +58,7 @@
           </p>
         </div>
       </div>
-      <div class="bg-[url('../../src/assets/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
+      <div class="bg-[url('/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
         <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto">
           <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[1].name }}

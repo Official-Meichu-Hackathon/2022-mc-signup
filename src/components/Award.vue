@@ -10,7 +10,7 @@
       </div>
     <div class="grid grid-cols-3 gap-[2%] lg:gap-[8%] w-full">
       <!-- card1 -->
-      <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/507] bg-contain bg-no-repeat bg-[url('../../src/assets/awardCard.svg')]">
+      <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/507] bg-contain bg-no-repeat bg-[url('/awardCard.svg')]">
         <img src="../assets/workshop_arrow.svg" class="w-[13%]"/>
         <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl py-1">黑客組</p>
         <p class="yellow-title text-xs lg:text-sm xl:text-base mb-auto">黑客組 每間企業獨立評選</p>
@@ -21,7 +21,7 @@
         <p class="text-white text-xs lg:text-sm xl:text-lg leading-loose -tracking-[0.04em] mb-auto">第三名：新台幣 5,000 元整、實體獎品</p>
       </div>
       <!-- card2 -->
-      <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[383/507] bg-contain bg-no-repeat bg-[url('../../src/assets/awardCard.svg')]">
+      <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[383/507] bg-contain bg-no-repeat bg-[url('/awardCard.svg')]">
         <img src="../assets/workshop_arrow.svg" class="w-[13%]"/>
         <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl py-1">創客交流組</p>    
         <p class="text-white text-sm lg:text-base xl:text-lg leading-loose -tracking-[0.04em] mt-auto">第一名：新台幣 40,000 元整</p>
@@ -31,7 +31,7 @@
         <p class="text-white text-sm lg:text-base xl:text-lg leading-loose -tracking-[0.04em] mb-auto">第三名：新台幣 20,000 元整</p>
       </div>
       <!-- card3 -->
-      <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[383/507] bg-contain bg-no-repeat bg-[url('../../src/assets/awardCard.svg')]">
+      <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[383/507] bg-contain bg-no-repeat bg-[url('/awardCard.svg')]">
         <img src="../assets/workshop_arrow.svg" class="w-[13%]"/>
         <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl py-1">梅竹大獎</p>
         <p class="yellow-title text-xs lg:text-sm xl:text-base mb-auto">由各企業第一名共同角逐</p>
@@ -63,7 +63,7 @@
       </div>
       <div class="grid grid-rows-3 gap-[5%] lg:gap-[8%] w-full">
         <!-- card1 -->
-        <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('../../src/assets/price_frame_sm.svg')]">
+        <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('/price_frame_sm.svg')]">
           <img src="../assets/workshop_arrow.svg" class="w-[10%]"/>
           <p class="yellow-title text-xl">黑客組</p>
           <p class="yellow-title text-[0.3rem] my-auto">黑客組 每間企業獨立評選</p>
@@ -74,7 +74,7 @@
           <p class="text-white text-xs leading-loose -tracking-[0.04em] mb-auto">第三名：新台幣 5,000 元整、實體獎品</p>
         </div>
         <!-- card2 -->
-        <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('../../src/assets/price_frame_sm.svg')]">
+        <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('/price_frame_sm.svg')]">
           <img src="../assets/workshop_arrow.svg" class="w-[10%]"/>
           <p class="yellow-title text-xl py-1">創客交流組</p>    
           <p class="text-white text-xs leading-loose -tracking-[0.04em] mt-auto">第一名：新台幣 40,000 元整</p>
@@ -84,7 +84,7 @@
           <p class="text-white text-xs leading-loose -tracking-[0.04em] mb-auto">第三名：新台幣 20,000 元整</p>
         </div>
         <!-- card3 -->
-        <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('../../src/assets/price_frame_sm.svg')]">
+        <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('/price_frame_sm.svg')]">
           <img src="../assets/workshop_arrow.svg" class="w-[10%]"/>
           <p class="yellow-title text-xl lg:text-3xl xl:text-4xl py-1">梅竹大獎</p>
           <p class="yellow-title text-xs lg:text-sm xl:text-base mb-auto">由各企業第一名共同角逐</p>

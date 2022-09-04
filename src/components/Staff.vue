@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col grid justify-items-center pb-[10%]">
     <!-- md -->
-    <div class="hidden md:block aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
+    <div class="hidden md:block aspect-[751/186] bg-[url('/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
       <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl p-0 lg:p-3">工作人員</p>
     </div>
 
     <!-- sm -->
-    <div class="block md:hidden aspect-[201/102] bg-[url('../../src/assets/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
+    <div class="block md:hidden aspect-[201/102] bg-[url('/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
       <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">工作人員</p>
     </div>
 
@@ -34,13 +34,13 @@ export default {
   data() {
     return {
       staffList: [
-        { img: '../../src/assets/Admin.svg', staff: ['陳存佩 / ', '賴睿麒'] },
-        { img: '../../src/assets/Finance.svg', staff: ['林言臻 / ', '孫瑜雅 / ', '曹瀚文 / ', '楊則勛 / ', '陳郁安 / ','鄭伊茹'] },
-        { img: '../../src/assets/Marketing.svg', staff: ['郭昀 / ', '宋少瑜 / ', '黃姿淯 / ', '趙于瑄 / ', '賴語彤 / ', '曾玉莉 / ', '蔡沁寧'] },
-        { img: '../../src/assets/Development.svg', staff: ['邵筱庭 / ', '王柏涵 / ', '邱奕庭 / ', '林柏宇 / ', '侯博軒 / ', '王皓平 / ', '曾家祐 / ', '徐瑞澤'] },
-        { img: '../../src/assets/Public.svg', staff: ['黃琦婷 / ', '莊婕妤 / ', '楊叔晴 / ', '高盛梅 / ', '解心妤 / ', '林庭伃 / ', '李博安 / ', '張宛婷 / ', '劉芮安 / ', '楊晨鍾'] },
-        { img: '../../src/assets/Design.svg', staff: ['葉聿昕 / ', '吳承祐 / ', '莊涵韻 / ', '梁詠晴 / ', '陳樂穎 / ', '詹詠甯 / ', '周家安 / ', '洪顥耘'] },
-        { img: '../../src/assets/Activity.svg', staff: ['陳宥安 / ', '邱弘竣 / ', '許靜怡 / ', '蔡欣儒 / ', '莊佳欣 / ', '陳宣榕 / ', '羅以淇 / ', '宋喬茵 / ', '范禎宸 / ', '朱祐辰'] }
+        { img: '/admin.svg', staff: ['陳存佩 / ', '賴睿麒'] },
+        { img: '/Finance.svg', staff: ['林言臻 / ', '孫瑜雅 / ', '曹瀚文 / ', '楊則勛 / ', '陳郁安 / ','鄭伊茹'] },
+        { img: '/Marketing.svg', staff: ['郭昀 / ', '宋少瑜 / ', '黃姿淯 / ', '趙于瑄 / ', '賴語彤 / ', '曾玉莉 / ', '蔡沁寧'] },
+        { img: '/Development.svg', staff: ['邵筱庭 / ', '王柏涵 / ', '邱奕庭 / ', '林柏宇 / ', '侯博軒 / ', '王皓平 / ', '曾家祐 / ', '徐瑞澤'] },
+        { img: '/Public.svg', staff: ['黃琦婷 / ', '莊婕妤 / ', '楊叔晴 / ', '高盛梅 / ', '解心妤 / ', '林庭伃 / ', '李博安 / ', '張宛婷 / ', '劉芮安 / ', '楊晨鍾'] },
+        { img: '/Design.svg', staff: ['葉聿昕 / ', '吳承祐 / ', '莊涵韻 / ', '梁詠晴 / ', '陳樂穎 / ', '詹詠甯 / ', '周家安 / ', '洪顥耘'] },
+        { img: '/Activity.svg', staff: ['陳宥安 / ', '邱弘竣 / ', '許靜怡 / ', '蔡欣儒 / ', '莊佳欣 / ', '陳宣榕 / ', '羅以淇 / ', '宋喬茵 / ', '范禎宸 / ', '朱祐辰'] }
 
       ]
     }

@@ -7,14 +7,14 @@
   <div id="block6" class="flex flex-col grid justify-items-center w-screen mt-16">
     <!-- md -->
     <div 
-      class="hidden md:block aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
+      class="hidden md:block aspect-[751/186] bg-[url('/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
     >
       <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl p-0 lg:p-3">&thinsp;比賽題目</p>
     </div>
 
     <!-- sm -->
     <div 
-      class="block md:hidden aspect-[201/102] bg-[url('../../src/assets/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
+      class="block md:hidden aspect-[201/102] bg-[url('/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
     >
       <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">&thinsp;比賽題目</p>
     </div>
@@ -176,7 +176,7 @@ export default {
     const isOpen = ref(false)
     const choose = ref('')
     const monitorList = ref([])
-    const imgList = ['../../src/assets/tsmc.svg', '../../src/assets/ST.svg','../../src/assets/asml.svg','../../src/assets/nxp.svg','../../src/assets/pxi.svg','../../src/assets/ctbc.svg','../../src/assets/kronos.svg', '../../src/assets/sponsor/gov1.svg' ]
+    const imgList = ['/tsmc.svg', '/ST.svg','/asml.svg','/nxp.svg','/pxi.svg','/ctbc.svg','/kronos.svg', '/sponsor/gov1.svg' ]
 
     for (let i = 1; i < 8; i++) {
       monitorList.value.push({
