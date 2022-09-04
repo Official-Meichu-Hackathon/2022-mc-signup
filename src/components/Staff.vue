@@ -1,16 +1,4 @@
 <template>
-  <!-- <div class="flex flex-col">
-    <p class="pink-title text-3xl lg:text-5xl xl:text-6xl mx-auto">Sponsor</p>
-    <img class="w-[60%] my-6" src="../assets/sponsor_line.svg" />
-    <div class="flex justify-around my-10">
-      <img class="w-[10%] mb-auto" src="../assets/two_star.svg" />
-      <div class="w-[50%] aspect-[747/416] bg-[url('../../src/assets/sponsor_frame.svg')] bg-contain bg-no-repeat bg-center">
-      </div>
-      <img class="w-[10%] rotate-180 mt-auto" src="../assets/two_star.svg" />
-    </div>
-    <img class="w-[60%] my-6 rotate-180 ml-auto" src="../assets/sponsor_line.svg" />
-  </div> -->
-
   <div class="flex flex-col grid justify-items-center py-[10%]">
     <!-- md -->
     <div class="hidden md:block aspect-[751/186] bg-[url('../../src/assets/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
@@ -22,7 +10,7 @@
       <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">工作人員</p>
     </div>
 
-    <div class="basis-auto grid grid-cols-1 lg:grid-cols-2 gap-[8%] w-[80%] xl:w-[70%] mt-[5%]">
+    <div class="basis-auto grid grid-cols-1 lg:grid-cols-2 gap-[2%] md:gap-[8%] w-[80%] xl:w-[70%] mt-[5%]">
       <div v-for="dept in staffList" :key="dept" class="flex flex-row items-center">
         <img :src="dept.img" class="w-[8rem] mr-3" />
         <div class="basis-auto flex flex-row flex-wrap">
@@ -36,7 +24,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="h-[100px]"></div> -->
+    <div class="h-[80px] md:h-[75px] lg:h-auto"></div>
   </div>
   
 </template>
@@ -63,7 +51,7 @@ export default {
 <style>
 .StaffName {
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 2.75rem;
   /* or 250% */
 

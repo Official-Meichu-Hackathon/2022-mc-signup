@@ -9,11 +9,9 @@
   <Footer />
   <div class="hidden md:block"></div>
 
-  <div class="w-screen bg-bgColor py-20" id="home">
+  <div class="w-screen bg-bgColor py-20 overflow-y-hidden" id="home">
     <div class="h-[300px]"></div>
-    <HomeMd /> 
-    <!-- <PopupIntro class="w-[50%] m-auto mb-10 pop-window" /> -->
-    <!-- <img src="../assets/test_main_img.svg" class="w-screen" /> -->
+    <Home /> 
     <Prospect id="block0" />
     <Information id="block1" />
     <GroupIntro id="block2" />
@@ -46,7 +44,7 @@ import Footer from './Footer.vue';
 import GroupIntro from './GroupIntro.vue';
 import Sponsor from './Sponsor.vue';
 import Award from './Award.vue'
-import HomeMd from './HomeMd.vue';
+import Home from './Home.vue';
 // onMounted(() => window.addEventListener('resize', getHeaderHeight))
 
 // function getHeaderHeight() {
@@ -55,19 +53,31 @@ import HomeMd from './HomeMd.vue';
 //   console.log("height: ", headerHeight)
 // }
 
-
+// window.addEventListener("scroll", function() {
+//   const GoToPage = (id) => {
+//   const element = document.getElementById("block" + id)
+//   const headerOffset = 150
+//   const elementPosition = element.getBoundingClientRect().top
+//   const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+//   console.log("elementPosition: ", elementPosition)
+//   window.scrollTo({
+//         top: offsetPosition,
+//         behavior: 'smooth',
+//       })
+// }
+// })
 
 const GoToPage = (id) => {
-  console.log("id: ", id)
   const element = document.getElementById("block" + id)
-  const headerOffset = 150
-  const elementPosition = element.getBoundingClientRect().top
-  const offsetPosition = elementPosition + window.pageYOffset - headerOffset
-  console.log("elementPosition: ", elementPosition)
-  window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      })
+  console.log(element.style.height)
+  // const headerOffset = 150
+  // const elementPosition = element.getBoundingClientRect().top
+  // const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+  // console.log("elementPosition: ", elementPosition)
+  // window.scrollTo({
+  //       top: offsetPosition,
+  //       behavior: 'smooth',
+  //     })
 }
 // const GoToPage = (index) => {
 //   scroll("block" + index)

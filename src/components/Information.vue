@@ -14,6 +14,10 @@
       src="../assets/global.svg"
       class="global"
     />
+    <img 
+      src="../assets/global.svg"
+      class="global2 rotateAnimation"
+    />
   </div>
 
   <!-- sm -->
@@ -37,21 +41,42 @@ window.addEventListener('scroll', () => {
   const scrollPositionY = window.pageYOffset / 1.5
 
   const global = document.querySelector('.global')
+
   const globalMoveSpeed = -0.7
   global.dataset.speed = globalMoveSpeed
   global.style.transform = `translateY(${scrollPositionY * globalMoveSpeed}px)`;
+
 })
 
 </script>
 
 <style>
 .global {
-  width: 15%;
+  width: 10%;
   position: absolute;
-  transform: rotate(17.21deg);
+  transform: rotate(-29.34deg);
   margin-top: 100%;
-  right: 2.2%;
-  top: 0%;
+  right: 50.2%;
+  left: 35%;
+  top: 55%;
 
+}
+
+.global2 {
+  position: absolute;
+  width: 15%;
+  right: 10.2%;
+  left: 82%;
+  top: 55%;
+
+}
+.rotateAnimation {
+  animation: rotateAnimation 7s cubic-bezier(0, 0, 0.2, 1) infinite;
+  animation-delay: 0.5s;
+  animation-direction:alternate;
+}
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
 }
 </style>

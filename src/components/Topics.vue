@@ -28,13 +28,55 @@
     <!-- md TopicList -->
     <div class="hidden md:block my-[3%] w-[80%] lg:w-[90%]">
       <div id="" class="flex justify-around flex-wrap mx-auto">
-        <button 
+        <!-- <button 
           @click="openTopic(index)" 
           v-for="(item, index) in monitorList" 
           :key="item.id" 
-          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-no-repeat "
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
         >
-          <img :src="imgList[index]" class="bg-white rounded-full aspect-square w-full" />
+          <img :src="imgList[index]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+        </button> -->
+        <button 
+          @click="openTopic(0)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[0]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+        </button>
+        <button 
+          @click="openTopic(1)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[1]" class="bg-white rounded-full aspect-square w-full" />
+        </button>
+        <button 
+          @click="openTopic(2)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[2]" class="bg-[#F7F8F8] rounded-full aspect-square w-full" />
+        </button>
+        <button 
+          @click="openTopic(3)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[3]" class="bg-black rounded-full aspect-square w-full" />
+        </button>
+        <button 
+          @click="openTopic(4)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[4]" class="bg-white rounded-full aspect-square w-full" />
+        </button>
+        <button 
+          @click="openTopic(5)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[5]" class="bg-white rounded-full aspect-square w-full" />
+        </button>
+        <button 
+          @click="openTopic(6)" 
+          class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+        >
+          <img :src="imgList[6]" class="bg-[#F18C31] rounded-full aspect-square w-full" />
         </button>
       </div>
 
@@ -48,13 +90,55 @@
 
       <div id="list-box" class="list-box">
         <div id="list" class="list flex justify-around overflow-x-auto min-w-[900px] md:min-w-[1500px] lg:min-w-[2000px] ">
-          <button 
+          <!-- <button 
             @click="openTopic(index)" 
             v-for="(item, index) in monitorList" 
             :key="item.id" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
           >
-            <img :src="imgList[index]" class="bg-white rounded-full aspect-square w-full" />
+            <img :src="imgList[index]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+          </button> -->
+          <button 
+            @click="openTopic(0)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[0]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+          </button>
+          <button 
+            @click="openTopic(1)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[1]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+          </button>
+          <button 
+            @click="openTopic(2)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[2]" class="bg-[#F7F8F8] rounded-full aspect-square w-full" />
+          </button>
+          <button 
+            @click="openTopic(3)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[3]" class="bg-black rounded-full aspect-square w-full" />
+          </button>
+          <button 
+            @click="openTopic(4)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[4]" class="rounded-full bg-white aspect-square w-full" />
+          </button>
+          <button 
+            @click="openTopic(5)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[5]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+          </button>
+          <button 
+            @click="openTopic(6)" 
+            class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+          >
+            <img :src="imgList[6]" class="bg-[#F18C31] rounded-full aspect-square w-full" />
           </button>
         </div>
       </div>
@@ -73,7 +157,7 @@
       @click="openTopic(7)" 
       class="w-[7.5rem] mx-[1rem] pt-5 ml-0 md:ml-[10%] justify-self-center md:justify-self-start rounded-full aspect-square bg-cover bg-no-repeat "
     >
-      <img :src="imgList[7]" class="bg-white rounded-full aspect-square w-full" />
+      <img :src="imgList[7]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
     </button>
     <!-- <p class="text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.04em] flex justify-self-start pl-[8%] pt-5">
       交流組的參賽者自訂題目，以不同的角度切入問題，提供更加多元的解決方案。
@@ -92,7 +176,7 @@ export default {
     const isOpen = ref(false)
     const choose = ref('')
     const monitorList = ref([])
-    const imgList = ['../../src/assets/tsmc.svg', '../../src/assets/ST.svg','../../src/assets/asml.svg','../../src/assets/nxp.svg','../../src/assets/pxi.svg','../../src/assets/ctbc.svg','../../src/assets/kronos.svg', '../../src/assets/gov.svg' ]
+    const imgList = ['../../src/assets/tsmc.svg', '../../src/assets/ST.svg','../../src/assets/asml.svg','../../src/assets/nxp.svg','../../src/assets/pxi.svg','../../src/assets/ctbc.svg','../../src/assets/kronos.svg', '../../src/assets/sponsor/gov1.svg' ]
 
     for (let i = 1; i < 8; i++) {
       monitorList.value.push({

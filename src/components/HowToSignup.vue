@@ -53,10 +53,11 @@
 
 
     <div class="h-[2.5rem]"></div>
-    <div class="relative aspect-[1213/818] w-[90%] lg:w-[80%]">
-      <img class="absolute w-full" src="../assets/big_border.svg" />
-      <div class="absolute bg-[#B288901A] w-[97%] h-[97%] right-0 left-0 bottom-0 mx-auto"></div>
-      <div class="absolute px-[7em] h-[90%] left-[2em] w-full md:w-auto md:left-[7em] top-0 bottom-0 my-auto indent-[-7em] text-white font-medium leading-6 text-xs lg:leading-8 lg:text-base xl:leading-10 xl:text-xl align-middle overflow-y-auto">
+    <div class="relative aspect-[364/579] md:aspect-[1213/818] w-[90%] lg:w-[80%]">
+      <img class="hidden md:block absolute w-full" src="../assets/big_border.svg" />
+      <img class="block md:hidden absolute w-full" src="../assets/signup_info_sm.svg" />
+      <div class="hidden md:block absolute bg-[#B288901A] w-[97%] h-[97%] right-0 left-0 bottom-0 mx-auto"></div>
+      <div class="absolute px-[7em] max-h-[80%] left-[2em] w-full md:w-auto md:left-[7em] indent-[-7em] text-white font-medium leading-6 text-xs lg:leading-8 lg:text-base xl:leading-10 xl:text-xl align-middle overflow-y-auto">
         <p>
           ● 報名費用&ensp;｜&ensp;＄600 / 人（須另繳保證金 $200）
           <br />

@@ -2,8 +2,41 @@
   <div class="w-screen flex justify-center">
     <div class="flex flex-col w-[90%] lg:w-[80%]">
       <p class="title text-3xl lg:text-5xl xl:text-6xl py-[2.5%]">>>>工作坊</p>
-      <div class="flex flex-col grid justify-items-stretch aspect-[1240/1112] w-full p-8 lg:p-[5%] bg-[url('../../src/assets/workshop_bg.svg')] bg-contain bg-no-repeat">
-        <div class="flex flex-col grid justify-items-stretch aspect-[1240/1112] w-full overflow-y-auto">
+      <div class="grid grid-row-2 md:grid-cols-2 gap-[1%] sm:gap-[2%] aspect-[358/745] sm:aspect-[358/537] md:aspect-[1232/602] w-full p-[6%] sm:p-[10%] md:p-[10%] lg:p-[5%] xl:p-[10%] bg-[url('../../src/assets/workshop_frameXs.svg')] sm:bg-[url('../../src/assets/workshop_frameSm.svg')] md:bg-[url('../../src/assets/workshop_frame.svg')] bg-contain bg-no-repeat">
+        <div >
+          <div class="flex flex-rows">
+            <img src="../assets/workshop_arrow.svg" class="h-8 self-center w-[8%] md:w-auto" />
+            <p class="yellow-title text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl self-center">&thinsp;黑客組</p>
+          </div>
+          <p class="mt-[3%] text-white tracking-[0.275em] text-xs sm:text-sm lg:text-base xl:text-lg leading-loose">
+              在黑客組工作坊中，透過講解與實作的過程，參與者將能更加熟悉的運用企業提供的資源，同時激盪更多靈感與創意，並在正式比賽中將以付諸實現。
+          </p>
+          <a 
+            href="../../src/static/workshop2022.pdf"
+            target="_blank"
+            class="view-more-ping"
+          >
+            <div class="text-white font-bold underline tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-loose">詳細資訊...</div> 
+          </a>
+        </div>
+        <div>
+          <div class="flex flex-rows">
+            <img src="../assets/workshop_arrow.svg" class="h-8 self-center w-[8%] md:w-auto" />
+            <p class="yellow-title text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl self-center">&thinsp;創客交流組</p>
+          </div>
+          <p class="mt-[3%] text-white tracking-[0.275em] text-xs md:text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose">
+            各組參賽者皆可選擇是否參與此工作坊，創客交流組享有參與優先權。另外，我們也開放非參賽者報名，詳情將於粉專釋出，希冀能讓所有參與者透過熟悉 Protoype 實作相關知識，更具體的傳達想法。
+          </p>
+            <a 
+              href="../../src/static/workshop2022.pdf"
+              target="_blank"
+              class="view-more-ping"
+            >
+              <div class="text-white font-bold underline tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-loose">詳細資訊...</div> 
+            </a>
+        </div>
+
+        <!-- <div class="flex flex-col grid justify-items-stretch aspect-[1240/1112] w-full overflow-y-auto">
           <div class="w-[70%] p-[1%] lg:p-[3%] xl:p-[8%] flex-cols ">
             <div class="flex flex-rows">
               <img src="../assets/workshop_arrow.svg" class="h-8 self-center" />
@@ -37,7 +70,7 @@
                 <div class="text-white font-bold underline tracking-[0.275em] text-sm lg:text-base xl:text-lg leading-loose">詳細資訊...</div> 
               </a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
