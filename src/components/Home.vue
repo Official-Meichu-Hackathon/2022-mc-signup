@@ -142,6 +142,10 @@
     opacity: 1;
     transform: scale(5);
   }
+  12% {
+    opacity: 1;
+    transform: scale(5);
+  }
   95%{
     transform: scale(5);
     opacity: 1;

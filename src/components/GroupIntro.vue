@@ -6,7 +6,7 @@
       <div class="relative aspect-[598/638] mx-[1%] pt-3" id="groupImg">
         <img src="../assets/group_frame.svg" class="absolute w-full aspect-[598/638]" />
         <div class="absolute w-full aspect-[598/638] flex">
-          <img src="../assets/group_intro_img.svg" class="m-auto w-[80%]" />
+          <img src="../assets/group_intro_img.svg" class="m-auto w-[80%] meta_move" />
         </div>
       </div>
 
@@ -105,5 +105,31 @@
   letter-spacing: 0.025em;
 
   color: #FFFFFF;
+}
+
+.meta_move {
+  animation: meta 5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes meta {
+  0%, 50% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  25% {
+    scale: 0.9;
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  75% {
+    scale: 1.1;
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  100% {
+    transform: translateY(-10%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
 }
 </style>
