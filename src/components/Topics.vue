@@ -16,7 +16,7 @@
     <div 
       class="block md:hidden aspect-[201/102] bg-[url('/topic_frame_sm.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center"
     >
-      <p class="pink-title text-center text-2xl pb-5 whitespace-pre-line">&thinsp;比賽題目</p>
+      <p class="pink-title text-center text-xl sm:text-2xl pb-5 whitespace-pre-line">&thinsp;比賽題目</p>
     </div>
 
     <!-- Hacker -->
