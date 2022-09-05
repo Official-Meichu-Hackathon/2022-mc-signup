@@ -102,6 +102,12 @@
         >
           備註：提供競賽前三名優先的正職及實習面試資格
         </p>
+        <p
+          v-if="selected == 2"
+          class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line"
+        >
+          備註： ASML 組別的參賽者將會隨機分配到以下兩個主題之一
+        </p>
       </div>
 
     </div>

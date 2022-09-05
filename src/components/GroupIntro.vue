@@ -19,7 +19,7 @@
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[0].name }}
             </p>
-            <p class="intro-content text-[0.6rem] lg:text-[1.1rem] p-1">
+            <p class="intro-content text-[0.6rem] lg:text-[1.1rem] p-1 pb-5">
               {{ intro[0].content }}
               <b>
                 {{intro[0].company}}
@@ -29,11 +29,11 @@
         </div>
         <div class="aspect-[620/278] relative">
           <img src="../assets/maker_frame.svg" class="w-full aspect-[620/278]" />
-          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto min-h-[80%]"> 
+          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[90%] overflow-y-auto min-h-[80%]"> 
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[1].name }}
             </p>
-            <p class="intro-content text-[0.6rem] lg:text-[1.1rem] p-1">
+            <p class="intro-content text-[0.6rem] lg:text-[1.1rem] p-1 pb-5">
               {{ intro[1].content }}
             </p>
           </div>
