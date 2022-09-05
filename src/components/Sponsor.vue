@@ -38,7 +38,7 @@
       <div class="flex flex-row items-center">
         <img src="../assets/sponsor/star1.svg" class="h-[40%] ml-2" />
         <p class="text-textColor text-center whitespace-pre-line md:whitespace-nowrap pt-[7%] px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          台灣積體電路製造股份有限公司、意法半導體、中國信託
+          台灣積體電路製造股份有限公司、意法半導體、中國信託、
           <br class="hidden md:block" />
           ASML、恩智浦半導體、原相科技、Kronos Research 
         </p>
