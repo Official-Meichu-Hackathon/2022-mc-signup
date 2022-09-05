@@ -40,7 +40,7 @@
         <p class="text-textColor text-center whitespace-pre-line md:whitespace-nowrap pt-[7%] px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           台灣積體電路製造股份有限公司、意法半導體、中國信託
           <br class="hidden md:block" />
-          ASML、NXP、原相科技、Kronos Research 
+          ASML、恩智浦半導體、原相科技、Kronos Research 
         </p>
         <img src="../assets/sponsor/star1.svg" class="h-[40%] mr-2" />
       </div>
@@ -49,7 +49,7 @@
           <img src="../assets/sponsor/tsmc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/st.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/asml.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/nxp.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="/NXP-w.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/pxi.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/ctbc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/kronos.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />

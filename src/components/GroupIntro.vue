@@ -12,10 +12,10 @@
         </div>
       </div>
 
-      <div class="flex flex-col justify-between mx-[1%] h-[101.5%] xl:h-[101%]" id="groupIntro"> 
+      <div class="flex flex-col justify-between mx-[1%] pb-[1%] h-full" id="groupIntro"> 
         <div class="aspect-[620/327] relative">
           <img src="../assets/hacker_frame.svg" class="w-full aspect-[620/327]" />
-          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto"> 
+          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto min-h-[80%]"> 
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[0].name }}
             </p>
@@ -27,9 +27,9 @@
             </p>
           </div>
         </div>
-        <div class="aspect-[644/296] relative w-[102%]">
-          <img src="../assets/maker_frame.svg" class="w-full aspect-[644/296]" />
-          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto"> 
+        <div class="aspect-[620/278] relative">
+          <img src="../assets/maker_frame.svg" class="w-full aspect-[620/278]" />
+          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto min-h-[80%]"> 
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[1].name }}
             </p>
@@ -37,6 +37,10 @@
               {{ intro[1].content }}
             </p>
           </div>
+          <div class="blue_box absolute -bottom-3 right-0 w-[15%] z-0">
+
+          </div>
+          <!-- <img src="../assets/bg_box.svg" class="absolute -bottom-3 right-0 w-[15%] z-0" /> -->
         </div>
       </div>
 
@@ -48,7 +52,7 @@
     <p class="pink-title my-3 text-2xl" >>>>組別介紹</p>
     <div class="flex flex-col grid justify-items-center w-full">
       <div class="bg-[url('/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
-        <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto">
+        <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto min-h-[90%] my-auto">
           <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[0].name }}
           </p>
@@ -61,7 +65,7 @@
         </div>
       </div>
       <div class="bg-[url('/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
-        <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto">
+        <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto min-h-[90%] my-auto">
           <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[1].name }}
           </p>
@@ -78,7 +82,7 @@
 
 <script setup>
   const intro = [
-    { name: '黑客組', content: '我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，同時企業方更提供實習機會，能讓學生進一步實踐創意發想！而今年我們將由以下七家企業作為引導單位：', company:'台積電、意法半導體、中國信託、ASML、原相科技、恩智浦、Kronos Research'},
+    { name: '黑客組', content: '我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，同時企業方更提供實習機會，能讓學生進一步實踐創意發想！而今年我們將由以下七家企業作為引導單位：', company:'台積電、意法半導體、中國信託、ASML、原相科技、恩智浦半導體、Kronos Research'},
     { name: '創客交流組', content: '由新竹市政府命題，融入新竹居民真實生活情境與議題，鼓勵運用分享、學習與實作，實際的解決問題與提出方案，並促進創作過程人才交流，體現創新創意、數位應用及動手實作、解決問題的黑客精神！' }
   ]
 
@@ -134,5 +138,17 @@
     transform: translateY(-10%);
     animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
+}
+
+.overflow_box {
+  /* white-space:nowrap; */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+}
+.blue_box {
+  aspect-ratio: 89 / 72;
+  border: 3px solid rgba(141, 217, 236, 0.9);
+  filter: drop-shadow(0px 0px 4px #DDFFFC) drop-shadow(0px 0px 10px rgba(225, 255, 252, 0.25));
 }
 </style>
