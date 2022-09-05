@@ -14,6 +14,13 @@
           {{ companies[selected].name }}
         </p>
         <br />
+        <p
+          v-if="selected == 2"
+          class="card-text text-[1rem] whitespace-pre-line font-bold"
+        >
+          備註： ASML 組別的參賽者將會隨機分配到以下兩個主題之一
+        </p>
+        <br />
         <p class="card-text text-[1rem] whitespace-pre-line">
           {{ companies[selected].topic }}
           <br /><br />
@@ -34,10 +41,10 @@
       </div>
       <div class="absolute left-0 right-0 mx-auto my-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
         <!-- <div class="flex justify-between"> -->
-          <img v-if="selected != 3" :src="companies[selected].img[0]" class="min-h-[35%] max-h-[40%] min-w-[50px] lg:min-w-[70px]" />
-          <img v-if="selected == 0" :src="companies[selected].img[1]"  class="min-h-[35%] max-h-[40%] min-w-[50px] lg:min-w-[70px]" />
-          <img v-if="selected == 3" :src="companies[selected].img[0]" class="min-h-[35%] max-h-[40%] bg-white" />
-          <img v-if="selected == 3" :src="companies[selected].img[1]"  class="min-h-[35%] max-h-[40%] bg-white" />
+          <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] min-w-[50px] lg:min-w-[70px]" style="pointer-events: none;"></object>
+          <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] min-w-[50px] lg:min-w-[70px]" style="pointer-events: none;"></object>
+          <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] bg-white" style="pointer-events: none;"></object>
+          <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] bg-white" style="pointer-events: none;"></object>
         <!-- </div> -->
         <img src="../assets/intro_card_bottom.svg" class="w-full" />
         <div v-if="selected != 7" class="flex flex-col grid justify-items-center">
@@ -58,10 +65,15 @@
       <div class="absolute aspect-[244/98] flex items-center flex-col bottom-0 left-0 right-0 w-[90%] mx-auto pb-3">
         <div class="flex justify-between h-[40%] w-[90%]"> 
           <div class="flex flex-row"> 
-            <img v-if="selected != 3" :src="companies[selected].img[0]" class="mr-5 max-w-[3rem] min-w-[85px]" />
+            <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 max-w-[3rem] min-w-[85px]" style="pointer-events: none;"></object>
+            <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="mr-5 max-w-[3rem] min-w-[85px]" style="pointer-events: none;"></object>
+            <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 h-[60%] bg-white my-auto" style="pointer-events: none;"></object>
+            <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[60%] bg-white my-auto" style="pointer-events: none;"></object>
+
+            <!-- <img v-if="selected != 3" :src="companies[selected].img[0]" class="mr-5 max-w-[3rem] min-w-[85px]" />
             <img v-if="selected == 0" :src="companies[selected].img[1]"  class="-ml-5 max-w-[3rem] min-w-[85px] " />
             <img v-if="selected == 3" :src="companies[selected].img[0]" class="mr-5 h-[60%] bg-white my-auto" />
-            <img v-if="selected == 3" :src="companies[selected].img[1]"  class=" h-[60%] bg-white my-auto" />
+            <img v-if="selected == 3" :src="companies[selected].img[1]"  class=" h-[60%] bg-white my-auto" /> -->
           </div>
           <div v-if="selected != 7" class="flex flex-col grid justify-items-center content-center">
             <button 
@@ -85,6 +97,13 @@
           {{ companies[selected].name }}
         </p>
         <br />
+        <p
+          v-if="selected == 2"
+          class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line font-bold"
+        >
+          備註： ASML 組別的參賽者將會隨機分配到以下兩個主題之一
+        </p>
+        <br />
         <p class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line">
           {{ companies[selected].topic }}
           <br /><br />
@@ -96,18 +115,12 @@
         >
           感謝Google Cloud 贊助本組運算資源
         </p>
-        <p
-          v-if="selected == 0"
-          class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line"
-        >
-          備註：提供競賽前三名優先的正職及實習面試資格
-        </p>
-        <p
+        <!-- <p
           v-if="selected == 2"
           class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line"
         >
           備註： ASML 組別的參賽者將會隨機分配到以下兩個主題之一
-        </p>
+        </p> -->
       </div>
 
     </div>
@@ -227,6 +240,7 @@ export default {
 }
 
 .pop-window {
+  aspect-ratio: 738.2/596;
   position: fixed;
   top: 5%;
   bottom: 5%;
@@ -234,10 +248,12 @@ export default {
   right: 0;
   z-index: 999;
   margin: auto;
-  width: 50%;
+  max-width: 80%;
+  max-height: 80%;
 }
 
 .pop-windowSm {
+  aspect-ratio: 244/398;
   position: fixed;
   top: 2%;
   bottom: 15%;
@@ -245,7 +261,7 @@ export default {
   right: 0;
   z-index: 999;
   margin: auto;
-  max-height: 70%;
-  width: 80%;
+  max-height: 80%;
+  max-width: 80%;
 }
 </style>
