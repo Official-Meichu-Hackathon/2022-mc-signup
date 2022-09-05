@@ -55,16 +55,15 @@ const GoToPage = (id) => {
         behavior: 'smooth',
       })
 }
-onMounted(() => {
+const refresh = () => {
   if (location.href.indexOf("#reloaded") == -1) {
     console.log("refresh!")
     location.href = location.href + "#reloaded";
     location.reload();
-    setTimeout(
-      location.reload()
-    , 1000)
   }
-}) 
+}
+
+setTimeout('refresh()',3000);
 </script>
 
 <style>
