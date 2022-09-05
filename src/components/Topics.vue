@@ -36,47 +36,55 @@
         >
           <img :src="imgList[index]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
         </button> -->
+        
         <button 
           @click="openTopic(0)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[0]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+          <object :data="imgList[0]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(1)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[1]" class="bg-white rounded-full aspect-square w-full" />
+          <object :data="imgList[1]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(2)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[2]" class="bg-[#F7F8F8] rounded-full aspect-square w-full" />
+          <object :data="imgList[2]" type="image/svg+xml" class="bg-[#F7F8F8] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(3)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[3]" class="bg-white rounded-full aspect-square w-full" />
+          <object :data="imgList[3]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(4)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[4]" class="bg-white rounded-full aspect-square w-full" />
+          <object :data="imgList[4]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(5)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[5]" class="bg-white rounded-full aspect-square w-full" />
+          <object :data="imgList[5]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(6)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
+          target="_blank" 
         >
-          <img :src="imgList[6]" class="bg-[#F18C31] rounded-full aspect-square w-full" />
+          <object :data="imgList[6]" type="image/svg+xml" class="bg-[#F18C31] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
       </div>
 
@@ -101,44 +109,51 @@
           <button 
             @click="openTopic(0)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[0]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+            <object :data="imgList[0]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(1)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[1]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+            <object :data="imgList[1]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(2)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[2]" class="bg-[#F7F8F8] rounded-full aspect-square w-full" />
+            <object :data="imgList[2]" type="image/svg+xml" class="bg-[#F7F8F8] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(3)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[3]" class="bg-white rounded-full aspect-square w-full" />
+            <object :data="imgList[3]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(4)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[4]" class="rounded-full bg-white aspect-square w-full" />
+            <object :data="imgList[4]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(5)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[5]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
+            <object :data="imgList[5]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(6)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
+            target="_blank" 
           >
-            <img :src="imgList[6]" class="bg-[#F18C31] rounded-full aspect-square w-full" />
+            <object :data="imgList[6]" type="image/svg+xml" class="bg-[#F18C31] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
         </div>
       </div>
@@ -154,11 +169,12 @@
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">創客交流組</p>
     </div>
     <button 
-      @click="openTopic(7)" 
-      class="w-[7.5rem] mx-[1rem] pt-5 ml-0 md:ml-[10%] justify-self-center md:justify-self-start rounded-full aspect-square bg-cover bg-no-repeat "
-    >
-      <img :src="imgList[7]" class="bg-[#FFFFFF] rounded-full aspect-square w-full" />
-    </button>
+        @click="openTopic(7)" 
+        class="w-[7.5rem] mx-[1rem] pt-5 ml-0 md:ml-[10%] justify-self-center md:justify-self-start rounded-full aspect-square bg-cover bg-no-repeat "
+        target="_blank" 
+      >
+        <object :data="imgList[7]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+      </button>
     <!-- <p class="text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.04em] flex justify-self-start pl-[8%] pt-5">
       交流組的參賽者自訂題目，以不同的角度切入問題，提供更加多元的解決方案。
     </p> -->
