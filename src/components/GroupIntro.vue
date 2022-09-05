@@ -29,7 +29,7 @@
         </div>
         <div class="aspect-[620/278] relative">
           <img src="../assets/maker_frame.svg" class="w-full aspect-[620/278]" />
-          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[90%] overflow-y-auto min-h-[80%]"> 
+          <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[90%] lg:w-[80%] overflow-y-auto min-h-[80%]"> 
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[1].name }}
             </p>
