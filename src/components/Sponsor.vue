@@ -49,7 +49,7 @@
           <img src="../assets/sponsor/tsmc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/st.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/asml.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="/NXP2.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <img src="/NXP-w.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/pxi.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/ctbc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
           <img src="../assets/sponsor/kronos.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
