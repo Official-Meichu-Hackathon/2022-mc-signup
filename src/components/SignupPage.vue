@@ -60,6 +60,9 @@ onMounted(() => {
     console.log("refresh!")
     location.href = location.href + "#reloaded";
     location.reload();
+    setTimeout(
+      location.reload()
+    , 1000)
   }
 }) 
 </script>
