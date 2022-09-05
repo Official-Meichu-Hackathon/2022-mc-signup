@@ -2,7 +2,7 @@
   <!-- md -->
   <div id="block1" class="hidden md:block relative w-screen aspect-[1440/1024] mx-auto">
     <p 
-      class="absolute title top-[5.4%] right-[10.9%] mx-auto text-3xl lg:text-5xl xl:text-6xl z-10"
+      class="absolute title top-[5.4%] right-[10.9%] mx-auto text-3xl lg:text-5xl xl:text-6xl z-[3]"
     >
       比賽資訊&lt;&lt;&lt;
     </p>

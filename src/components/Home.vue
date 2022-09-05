@@ -82,8 +82,14 @@
 
 <style>
 .scale {
-  animation: obj_scale 7s cubic-bezier(0, 0, 0.2, 1) infinite;
+  /* animation: obj_scale 7s cubic-bezier(0, 0, 0.2, 1) infinite; */
+  -webkit-animation-name: obj_scale;
+  -webkit-animation-duration: 7s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   animation-delay: 0.5s;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 } 
 .scaleBig {
   animation: title_scale 7s cubic-bezier(0, 0, 0.2, 1) infinite;
@@ -91,41 +97,41 @@
 }
 @keyframes obj_scale {
   0% {
-    transform: scale(1);
+    transform: scale(1) translateZ(0);
   }
   1.5% {
-    transform: scale(1.5);
+    transform: scale(1.5) translateZ(0);
   }
   2.5% {
-    transform: scale(4);
+    transform: scale(4) translateZ(0);
   }
   7% {
-    transform: scale(8);
+    transform: scale(8) translateZ(0);
   }
   15% {
-    transform: scale(4.5);
+    transform: scale(4.5) translateZ(0);
   }
   22.5% {
-    transform: scale(6.5);
+    transform: scale(6.5) translateZ(0);
   }
   27% {
-    transform: scale(5.2);
+    transform: scale(5.2) translateZ(0);
 
   }
   32.5% {
-    transform: scale(5.5);
+    transform: scale(5.5) translateZ(0);
   }
   37% {
-    transform: scale(4.6);
+    transform: scale(4.6) translateZ(0);
   }
   50% {
-    transform: scale(5);
+    transform: scale(5) translateZ(0);
   }
   95%{
-    transform: scale(5);
+    transform: scale(5) translateZ(0);
   }
   100%{
-    transform: scale(1);
+    transform: scale(1) translateZ(0);
 
   }
 }

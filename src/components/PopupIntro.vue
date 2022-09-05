@@ -9,7 +9,7 @@
       >
         <img class="w-full" src="../assets/cross.svg" />
       </button>
-      <div class="card-textbox aspect-[678/365] p-[5%] my-1 overflow-y-auto">
+      <div class="card-textbox aspect-[678/365] p-[5%] my-1">
         <p class="card-text text-[2rem] font-bold whitespace-pre-line">
           {{ companies[selected].name }}
         </p>
@@ -196,6 +196,8 @@ export default {
   top: 10%;
   left: 0;
   right: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
 }
 .card-text {
   /* font-size: 1rem; */

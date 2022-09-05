@@ -286,15 +286,24 @@
     </div>
     
     <div class="flex flex-col grid justify-items-center w-full my-[10%]"> 
+      <div class="flex items-center justify-center mx-auto mt-[3%] sponsorAd">
+        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <p class="yellow_font text-center text-2xl lg:text-4xl xl:text-5xl whitespace-nowrap px-2 lg:p-3">
+          企業廣告
+        </p>
+        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+      </div>
       <div class="flex flex-row w-full flex items-center">
         <hr class="w-[60%] divider_yellow justify-self-start" />
         <img src="../assets/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
       </div>
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] ml-[10%] justify-self-start star_move" />
-      <img 
-        src="../assets/sponsor/sponsor_nxp.svg" 
-        class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%] rounded-[1.25rem]"
-      />
+      <a href="https://www.nxp.com" target="_blank" class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%] rounded-[1.25rem]">
+        <img 
+          src="../assets/sponsor/sponsor_nxp.svg" 
+          class="w-full rounded-[1.25rem]"
+        />
+      </a>
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] mr-[10%] justify-self-end star_move" />
       <div class="flex flex-row-reverse w-full flex items-center">
         <hr class="w-[60%] divider_yellow justify-self-end" />
@@ -350,5 +359,19 @@ export default {
     transform: translateY(0);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
+}
+
+.sponsorAd {
+  animation: Ad 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes Ad {
+    0%, 100% {
+      opacity: .9;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
 }
 </style>

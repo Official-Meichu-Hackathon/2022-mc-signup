@@ -4,7 +4,7 @@
       <p class="title text-3xl lg:text-5xl xl:text-6xl py-[2.5%]">>>>工作坊</p>
       <div class="grid grid-row-2 md:grid-cols-2 gap-[1%] sm:gap-[2%] aspect-[358/745] sm:aspect-[358/537] md:aspect-[1232/602] w-full p-[10%] lg:p-[5%] xl:p-[10%] bg-[url('/workshop_frameXs.svg')] sm:bg-[url('/workshop_frameSm.svg')] md:bg-[url('/workshop_frame.svg')] bg-contain bg-no-repeat bg-center">
         <div >
-          <div class="flex flex-rows">
+          <div class="flex flex-rows mt-10">
             <img src="../assets/workshop_arrow.svg" class="h-8 self-center w-[8%] md:w-auto" />
             <p class="yellow-title text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl self-center">&thinsp;黑客組</p>
           </div>
@@ -20,7 +20,7 @@
           </a>
         </div>
         <div>
-          <div class="flex flex-rows">
+          <div class="flex flex-rows mt-0 md:mt-10">
             <img src="../assets/workshop_arrow.svg" class="h-8 self-center w-[8%] md:w-auto" />
             <p class="yellow-title text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl self-center">&thinsp;創客交流組</p>
           </div>
