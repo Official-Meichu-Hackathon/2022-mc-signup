@@ -64,16 +64,11 @@
     <div class="relative aspect-[244/398] bg-[url('/intro_card_sm.svg')] bg-contain bg-no-repeat bg-center z-20">
       <div class="absolute aspect-[244/98] flex items-center flex-col bottom-0 left-0 right-0 w-[90%] mx-auto pb-3">
         <div class="flex justify-between h-[40%] w-[90%]"> 
-          <div class="flex flex-row"> 
-            <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 max-w-[3rem] min-w-[85px]" style="pointer-events: none;"></object>
-            <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="mr-5 max-w-[3rem] min-w-[85px]" style="pointer-events: none;"></object>
-            <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 h-[60%] max-w-[30%] bg-white my-auto" style="pointer-events: none;"></object>
-            <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[60%] max-w-[30%] bg-white my-auto" style="pointer-events: none;"></object>
-
-            <!-- <img v-if="selected != 3" :src="companies[selected].img[0]" class="mr-5 max-w-[3rem] min-w-[85px]" />
-            <img v-if="selected == 0" :src="companies[selected].img[1]"  class="-ml-5 max-w-[3rem] min-w-[85px] " />
-            <img v-if="selected == 3" :src="companies[selected].img[0]" class="mr-5 h-[60%] bg-white my-auto" />
-            <img v-if="selected == 3" :src="companies[selected].img[1]"  class=" h-[60%] bg-white my-auto" /> -->
+          <div class="flex justify-start max-w-[70%] min-h-[80%]"> 
+            <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[90%] self-center" style="pointer-events: none;"></object>
+            <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[90%] self-center ml-3" style="pointer-events: none;"></object>
+            <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[90%] max-w-[90%] self-center bg-white my-auto" style="pointer-events: none;"></object>
+            <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[90%] max-w-[90%] bg-white my-auto ml-3" style="pointer-events: none;"></object>
           </div>
           <div v-if="selected != 7" class="flex flex-col grid justify-items-center content-center">
             <button 
@@ -115,12 +110,6 @@
         >
           感謝Google Cloud 贊助本組運算資源
         </p>
-        <!-- <p
-          v-if="selected == 2"
-          class="card-text pb-5 px-2 text-[0.75rem] whitespace-pre-line"
-        >
-          備註： ASML 組別的參賽者將會隨機分配到以下兩個主題之一
-        </p> -->
       </div>
 
     </div>
