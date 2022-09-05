@@ -67,11 +67,11 @@
     />
     <img 
       src="../assets/home/t-l.svg"
-      class="absolute scale origin-right w-[15.5%] left-[70.5.4%] right-[10.8%] top-[38.6%] bottom-[40%] pr-[10%]"
+      class="absolute scale origin-right w-[15.9%] left-[68.5%] right-[12.8%] top-[38.6%] bottom-[40%] pr-[10%]"
     />
     <img 
       src="../assets/home/t-r.svg "
-      class="absolute scale origin-left w-[12%] left-[35.4%] right-[45.8%] top-[48.6%] bottom-[30%] pl-[6%] z-10"
+      class="absolute scale origin-left w-[12.5%] left-[35.4%] right-[45.8%] top-[48.6%] bottom-[30%] pl-[6%] z-10"
     />
   </div>
 </template>
