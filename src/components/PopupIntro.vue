@@ -41,13 +41,13 @@
       </div>
       <div class="absolute left-0 right-0 mx-auto my-auto grid grid-flow-col-dense content-center gap-3 aspect-[738.2/154.5] bottom-0 max-w-[95%]">
         <div class="flex justify-around ">
-          <object v-if="selected == 0" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 0 || selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
           <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
 
           <object v-if="selected != 0 && selected != 2 && selected != 6" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center" style="pointer-events: none;"></object>
           <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center ml-3" style="pointer-events: none;"></object>
 
-          <object v-if="selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] max-w-[70%] self-center" style="pointer-events: none;"></object>
+          <!-- <object v-if="selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] max-w-[70%] self-center" style="pointer-events: none;"></object> -->
 
           <object v-if="selected == 6" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[70px] lg:h-[80px] xl:h-[100px] self-center" style="pointer-events: none;"></object>
           <!-- <object v-if="selected != 0 && selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] self-center" style="pointer-events: none;"></object> -->
