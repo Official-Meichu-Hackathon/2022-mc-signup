@@ -5,7 +5,7 @@
       id="nav"
       >
       <!-- <transition name="slide"> -->
-        <div class=" flex items-center justify-around text-white"> 
+        <div class=" flex items-center justify-around text-white z-50"> 
           <button
             v-for="(item, index) in content" :key="index"
             @click="$emit('jumpTo', index)" 

@@ -1,11 +1,9 @@
 <template>
   <footer
-    class="fixed bottom-0 ma-auto w-screen px-2 pt-1 lg:px-3 bg-[#4C4C4C] z-50"
+    class="fixed bottom-0 ma-auto w-screen px-2 pt-1 lg:px-3 bg-[#4C4C4C] z-20"
   >
     <div class="flex items-center justify-between">
-      <div>
-        <img src="../assets/footer_icon.svg" />
-      </div>
+      <object data="/footer_icon.svg" type="image/svg+xml" width="auto" class="svgDisplay"></object>
       <div class="flex space-x-2">
         <a href="https://tenyear.meichuhackathon.org/" target="_blank" class="flex items-center">
           <p class="text-white text-[0.7rem] md:text-[1rem] font-semibold whitespace-nowrap" >十週年召集令</p>
