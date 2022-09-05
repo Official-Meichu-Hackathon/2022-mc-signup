@@ -35,7 +35,7 @@
       <div class="absolute left-0 right-0 mx-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
         <!-- <div class="flex justify-between"> -->
           <img :src="companies[selected].img[0]" class="max-w-[4rem] lg:max-w-[6rem] xl:max-w-[10rem] min-w-[30px] h-full" />
-          <img v-if="selected == 0" :src="companies[selected].img[1]"  class="max-w-[3rem] lg:lg:max-w-[5rem] xl:max-w-[10rem] min-w-[30px] h-full" />
+          <img v-if="selected == 0 || selected == 3" :src="companies[selected].img[1]"  class="max-w-[3rem] lg:lg:max-w-[5rem] xl:max-w-[10rem] min-w-[30px] h-full" />
         <!-- </div> -->
         <img src="../assets/intro_card_bottom.svg" class="w-full" />
         <div v-if="selected != 7" class="flex flex-col grid justify-items-center">
@@ -57,7 +57,7 @@
         <div class="flex justify-between h-[40%] w-[90%]"> 
           <div class="flex flex-row"> 
             <img :src="companies[selected].img[0]" class="mr-5 max-w-[3rem] min-w-[85px]" />
-            <img v-if="selected == 0" :src="companies[selected].img[1]"  class="-ml-5 max-w-[3rem] min-w-[85px] " />
+            <img v-if="selected == 0  || selected == 3" :src="companies[selected].img[1]"  class="-ml-5 max-w-[3rem] min-w-[85px] " />
           </div>
           <div v-if="selected != 7" class="flex flex-col grid justify-items-center content-center">
             <button 
@@ -141,7 +141,7 @@ export default {
         topic: '主題：永續發展 X 智慧城市與智慧家庭聯網',
         intro: '說明：隨著科技的演進,自動成為一種人們對高科技社會的想像,從工業革命至今,日新月異的科技使人們的生活從仰賴人力,到後來可以讓機器聽命行事,一直到 IoT 的興起,使機器有了自己判斷的標準。\n本次命題即以此為出發點,希望參賽者能利用我方提供的相關開發資源,以永續發展為主題,實作出智慧家電或智慧城市的應用。',
         link: '/NXP.pdf',
-        img: ['/nxp.svg', '']
+        img: ['/nxp.svg', '/WT.svg']
       },
       {
         name: '原相科技',

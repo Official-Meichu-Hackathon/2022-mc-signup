@@ -6,7 +6,9 @@
       <div class="relative aspect-[598/638] mx-[1%] pt-3" id="groupImg">
         <img src="../assets/group_frame.svg" class="absolute w-full aspect-[598/638]" />
         <div class="absolute w-full aspect-[598/638] flex">
-          <img src="../assets/group_intro_img.svg" class="m-auto w-[80%] meta_move" />
+          <object data="/group_intro_img.svg" type="image/svg+xml" width="80%" class="m-auto meta_move svgDisplay"></object>
+
+          <!-- <img src="../assets/group_intro_img.svg" class="m-auto w-[80%] meta_move" /> -->
         </div>
       </div>
 

@@ -6,10 +6,11 @@
     >
       比賽資訊&lt;&lt;&lt;
     </p>
-    <img 
+    <!-- <img 
       src="../assets/info_timeline.svg"
-      class="absolute w-full aspect-[1440/1024]"  
-    />
+      class="absolute w-full aspect-[1440/1024] svgDisplay"  
+    /> -->
+    <object data="/info_timeline.svg" type="image/svg+xml" width="100%" class="svgDisplay"></object>
     <img 
       src="../assets/global.svg"
       class="global"
@@ -30,7 +31,11 @@
       <br />
       地點：清華大學新體育館
     </p>
-    <img src="../assets/info_timeline_sm.svg" class="translate-x-[25%] sm:translate-x-[28%] w-[70%] sm:w-[80%]" />
+    <div class="translate-x-[25%] sm:translate-x-[28%] w-[70%] sm:w-[80%] mx-auto svgDisplay">
+      <object data="/info_timeline_sm.svg" type="image/svg+xml" width="100%" class="svgDisplay"></object>
+    </div>
+    <!-- <object data="/info_timeline_sm.svg" type="image/svg+xml" class="translate-x-[25%] sm:translate-x-[28%] w-[70%] sm:w-[80%] svgDisplay"></object> -->
+    <!-- <img src="../assets/info_timeline_sm.svg" class="translate-x-[25%] sm:translate-x-[28%] w-[70%] sm:w-[80%] svgDisplay" /> -->
   </div>
 
 </template>
@@ -78,5 +83,11 @@ window.addEventListener('scroll', () => {
 @keyframes rotateAnimation {
 	from {transform: rotateY(45deg);}
 	to {transform: rotateY(225deg);}
+}
+
+.svgDisplay {
+  -webkit-transform: scale3d(1, 1, 1);
+  -ms-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
 }
 </style>

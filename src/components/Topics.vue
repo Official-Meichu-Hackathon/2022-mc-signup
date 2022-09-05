@@ -9,7 +9,7 @@
     <div 
       class="hidden md:block aspect-[751/186] bg-[url('/topic_frame.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center"
     >
-      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl p-0 lg:p-3">&thinsp;比賽題目</p>
+      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl px-[1em] lg:px-[1.5em]">&thinsp;比賽題目</p>
     </div>
 
     <!-- sm -->
@@ -58,7 +58,7 @@
           @click="openTopic(3)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
         >
-          <img :src="imgList[3]" class="bg-black rounded-full aspect-square w-full" />
+          <img :src="imgList[3]" class="bg-white rounded-full aspect-square w-full" />
         </button>
         <button 
           @click="openTopic(4)" 
@@ -120,7 +120,7 @@
             @click="openTopic(3)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
           >
-            <img :src="imgList[3]" class="bg-black rounded-full aspect-square w-full" />
+            <img :src="imgList[3]" class="bg-white rounded-full aspect-square w-full" />
           </button>
           <button 
             @click="openTopic(4)" 
@@ -176,7 +176,7 @@ export default {
     const isOpen = ref(false)
     const choose = ref('')
     const monitorList = ref([])
-    const imgList = ['/tsmc.svg', '/ST.svg','/asml.svg','/nxp.svg','/pxi.svg','/ctbc.svg','/kronos.svg', '/sponsor/gov1.svg' ]
+    const imgList = ['/tsmc.svg', '/ST.svg','/asml.svg','/NXP2.svg','/pxi.svg','/ctbc.svg','/kronos.svg', '/sponsor/gov1.svg' ]
 
     for (let i = 1; i < 8; i++) {
       monitorList.value.push({

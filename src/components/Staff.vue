@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col grid justify-items-center pb-[10%]">
     <!-- md -->
-    <div class="hidden md:block aspect-[751/186] bg-[url('/topic_frame.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center">
-      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl p-0 lg:p-3">&thinsp;工作人員</p>
+    <div class="hidden md:block aspect-[751/186] bg-[url('/topic_frame.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center">
+      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl px-[1em] lg:px-[1.5em]">&thinsp;工作人員</p>
     </div>
 
     <!-- sm -->
