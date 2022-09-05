@@ -63,7 +63,7 @@ const refresh = () => {
   }
 }
 
-setTimeout('refresh()',3000);
+setTimeout('refresh()',5000);
 </script>
 
 <style>
