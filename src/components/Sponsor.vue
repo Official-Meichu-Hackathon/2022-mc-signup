@@ -298,11 +298,14 @@
         <img src="../assets/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
       </div>
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] ml-[10%] justify-self-start star_move" />
-      <a href="https://www.nxp.com" target="_blank" class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%] rounded-[1.25rem]">
-        <img 
+      <a href="https://www.nxp.com" target="_blank" class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%]" style="display: block;">
+        <object data="/sponsor/sponsor_nxp.svg" type="image/svg+xml" class="w-full rounded-[1.25rem]" style="pointer-events: none;">
+          <!-- <a href="https://www.nxp.com" target="_blank" class="w-full"></a> -->
+        </object>
+        <!-- <img 
           src="../assets/sponsor/sponsor_nxp.svg" 
           class="w-full rounded-[1.25rem]"
-        />
+        /> -->
       </a>
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] mr-[10%] justify-self-end star_move" />
       <div class="flex flex-row-reverse w-full flex items-center">

@@ -9,7 +9,7 @@
     <div 
       class="hidden md:block aspect-[751/186] bg-[url('/topic_frame.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center"
     >
-      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl px-[1em] lg:px-[1.5em]">&thinsp;比賽題目</p>
+      <p class="pink-title text-center text-3xl lg:text-5xl xl:text-6xl px-[1em] lg:px-[1.5em] whitespace-nowrap">&thinsp;比賽題目</p>
     </div>
 
     <!-- sm -->
