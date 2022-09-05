@@ -39,15 +39,15 @@
           備註：提供競賽前三名優先的正職及實習面試資格
         </p>
       </div>
-      <div class="absolute left-0 right-0 mx-auto my-auto grid grid-flow-col flex items-center gap-4 aspect-[738.2/154.5] bottom-0 px-[5%]">
-        <!-- <div class="flex justify-between"> -->
-          <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] min-w-[50px] lg:min-w-[70px]" style="pointer-events: none;"></object>
-          <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] min-w-[50px] lg:min-w-[70px]" style="pointer-events: none;"></object>
-          <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] bg-white" style="pointer-events: none;"></object>
-          <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="min-h-[35%] max-h-[40%] bg-white" style="pointer-events: none;"></object>
-        <!-- </div> -->
-        <img src="../assets/intro_card_bottom.svg" class="w-full" />
-        <div v-if="selected != 7" class="flex flex-col grid justify-items-center">
+      <div class="absolute left-0 right-0 mx-auto my-auto grid grid-flow-col-dense content-center gap-3 aspect-[738.2/154.5] bottom-0 max-w-[95%]">
+        <div class="flex justify-around ">
+          <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[40%] max-w-[55%] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[40%] max-w-[55%] self-center" style="pointer-events: none;"></object>
+        </div>
+        <img src="../assets/intro_card_bottom.svg" class="col-span-2 my-auto" />
+        <div v-if="selected != 7" class="flex flex-col grid justify-items-center col-span-1">
           <button 
             @click="LinkToPdf" 
             class="aspect-square rounded-full w-[80%] grid justify-items-center max-w-[3rem] lg:max-w-[5rem] xl:max-w-[7rem]">
@@ -67,8 +67,8 @@
           <div class="flex flex-row"> 
             <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 max-w-[3rem] min-w-[85px]" style="pointer-events: none;"></object>
             <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="mr-5 max-w-[3rem] min-w-[85px]" style="pointer-events: none;"></object>
-            <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 h-[60%] bg-white my-auto" style="pointer-events: none;"></object>
-            <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[60%] bg-white my-auto" style="pointer-events: none;"></object>
+            <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="mr-5 h-[60%] max-w-[30%] bg-white my-auto" style="pointer-events: none;"></object>
+            <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[60%] max-w-[30%] bg-white my-auto" style="pointer-events: none;"></object>
 
             <!-- <img v-if="selected != 3" :src="companies[selected].img[0]" class="mr-5 max-w-[3rem] min-w-[85px]" />
             <img v-if="selected == 0" :src="companies[selected].img[1]"  class="-ml-5 max-w-[3rem] min-w-[85px] " />
