@@ -41,12 +41,19 @@
       </div>
       <div class="absolute left-0 right-0 mx-auto my-auto grid grid-flow-col-dense content-center gap-3 aspect-[738.2/154.5] bottom-0 max-w-[95%]">
         <div class="flex justify-around ">
-          <object v-if="selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 0 || selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
           <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
-          <object v-if="selected == 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[40%] max-w-[55%] self-center" style="pointer-events: none;"></object>
-          <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[40%] max-w-[55%] self-center" style="pointer-events: none;"></object>
+
+          <object v-if="selected != 0 && selected != 2 && selected != 6" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center ml-3" style="pointer-events: none;"></object>
+
+          <!-- <object v-if="selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] max-w-[70%] self-center" style="pointer-events: none;"></object> -->
+
+          <object v-if="selected == 6" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[70px] lg:h-[80px] xl:h-[100px] self-center" style="pointer-events: none;"></object>
+          <!-- <object v-if="selected != 0 && selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] self-center" style="pointer-events: none;"></object> -->
+
         </div>
-        <img src="../assets/intro_card_bottom.svg" class="col-span-2 my-auto" />
+        <img src="../assets/intro_card_bottom.svg" class="col-span-2 my-auto justify-self-end" />
         <div v-if="selected != 7" class="flex flex-col grid justify-items-center col-span-1">
           <button 
             @click="LinkToPdf" 
@@ -139,7 +146,7 @@ export default {
         topic: '主題：開發出創新的任何與永續/綠能科技之相關應用',
         intro: '說明：溫室效應造成嚴峻氣候變遷問題,各國紛紛注重起永續科技的發展,跨國企業更是以使用潔淨能源和節能減碳為目標。\n意法半導體秉持著科技始之於你,並致力透過創新和尖端科技幫助人類改善生活為己任,持續與所有的利益關係人,共同探索和開創新應用,並建立起更好的永續居住環境。\n參賽隊伍必須使用意法半導體之產品開發出創新的任何與永續/綠能科技之相關應用(STM32 開發板,不限型號或 MEMS 擴充板*)。',
         link: '/ST.pdf',
-        img: ['/ST.svg', '']
+        img: ['/ST_small.svg', '']
       },
       {
         name: 'ASML',
