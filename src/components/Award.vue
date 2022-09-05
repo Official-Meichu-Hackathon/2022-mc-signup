@@ -55,18 +55,18 @@
 
   <!-- 獎項資訊 sm -->
   <div id="award" class="block md:hidden w-screen grid justify-items-center">
-    <div class="w-[70%] flex flex-row grid justify-items-center mt-[10%]">
+    <div class="w-[80%] flex flex-row grid justify-items-center mt-[10%]">
       <div class="flex flex-row items-center mb-[5%]">
         <img src="../assets/atom.svg" class="h-10" />
         <p class="pink-title text-3xl lg:text-5xl xl:text-6xl" >&thinsp;獎項資訊&thinsp;</p>
         <img src="../assets/atom.svg" class="h-10" />
       </div>
-      <div class="grid grid-rows-3 gap-[5%] lg:gap-[8%] w-full">
+      <div class="grid grid-rows-4 gap-[3%] w-full">
         <!-- card1 -->
         <div class="flex flex-col p-[6%] lg:p-[10%] aspect-[363/313] bg-contain bg-no-repeat bg-[url('/price_frame_sm.svg')]">
           <img src="../assets/workshop_arrow.svg" class="w-[10%]"/>
-          <p class="yellow-title text-xl">黑客組</p>
-          <p class="yellow-title text-[0.3rem] my-auto">黑客組 每間企業獨立評選</p>
+          <p class="yellow-title text-xl py-1">黑客組</p>
+          <p class="yellow-title text-xs lg:text-sm xl:text-base mb-auto">黑客組 每間企業獨立評選</p>
           <p class="text-white text-xs leading-loose -tracking-[0.04em]">第一名：新台幣 15,000 元整、實體獎品、實習或實習面試資格</p>
           <hr class="blue-divider my-auto" />
           <p class="text-white text-xs leading-loose -tracking-[0.04em]">第二名：新台幣 10,000 元整、實體獎品</p>
@@ -95,12 +95,16 @@
           <hr class="blue-divider my-auto" />
           <p class="text-white text-xs leading-loose -tracking-[0.04em] mb-auto">第三名：新台幣 5,000 元整</p>
         </div>
-
+        <p class="text-white text-xs leading-loose tracking-[0.1em]">
+          ✧ 今年是梅竹黑客松邁入第十年之際，因此我們在競賽中加碼獎金並增設獎項！希望能和參賽者一同見證這個值得紀念的時刻。 ✧
+        </p>
       </div>
-
-      <p class="mt-12 text-white text-xs leading-loose tracking-[0.1em]">
-        ✧ 今年是梅竹黑客松邁入第十年之際，因此我們在競賽中加碼獎金並增設獎項！希望能和參賽者一同見證這個值得紀念的時刻。 ✧
-      </p>
+      <div class="h-[5%]"></div>
+      <!-- <div class="my-5"> 
+        <p class="text-white text-xs leading-loose tracking-[0.1em]">
+          ✧ 今年是梅竹黑客松邁入第十年之際，因此我們在競賽中加碼獎金並增設獎項！希望能和參賽者一同見證這個值得紀念的時刻。 ✧
+        </p>
+      </div> -->
 
     </div>
   </div>

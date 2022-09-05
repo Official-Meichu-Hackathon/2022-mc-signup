@@ -3,17 +3,17 @@
     <p class="pink-title my-10 text-3xl lg:text-5xl xl:text-6xl ml-[10%]" >>>>贊助單位</p>
 
     <!-- 創客交流組合作單位 -->
-    <div class="flex flex-col grid justify-items-center pt-[3%]">
+    <div class="grid justify-items-center pt-[3%]">
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line" />
         <div 
-          class="ml-1 aspect-[634/125] bg-[url('/sponsor/frame-l.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[80%]"
+          class="aspect-[634/125] bg-[url('/sponsor/frame-l.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center w-[90%] md:w-[80%]"
         >
-          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">&thinsp;創客交流組合作單位</p>
+          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">創客交流組合作單位</p>
         </div>
         <hr class="divider_line" />
       </div>
-      <p class="text-textColor text-center pt-[3%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
+      <p class="text-textColor text-center pt-[7%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
         新竹市政府、新竹市政府創新產業加速中心
       </p>
       <div class="w-[80%] my-5"> 
@@ -25,13 +25,13 @@
     </div>
 
     <!-- 合作企業 -->
-    <div class="flex flex-col grid justify-items-center pt-[8%]">
+    <div class="grid justify-items-center  pt-[8%]">
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
-          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">合作企業&thinsp;</p>
+          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">合作企業</p>
         </div>
         <hr class="divider_line col-span-2" />
       </div>
@@ -58,19 +58,19 @@
     </div>
 
     <!-- 贊助企業 -->
-    <div class="flex flex-col grid justify-items-center pt-[5%]">
+    <div class="grid justify-items-center pt-[8%]">
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
-          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">贊助企業&thinsp;</p>
+          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">贊助企業</p>
         </div>
         <hr class="divider_line col-span-2" />
       </div>
 
       <!-- PLATINUM -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           PLATINUM
@@ -95,7 +95,7 @@
       </div>
 
       <!-- GOLD -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           GOLD
@@ -118,7 +118,7 @@
       </div>
 
       <!-- SILVER -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           SILVER
@@ -142,7 +142,7 @@
       </div>
 
       <!-- BRONZE -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           BRONZE
@@ -159,19 +159,19 @@
     </div>
 
     <!-- 特殊贊助 -->
-    <div class="flex flex-col grid justify-items-center pt-[5%]">
+    <div class="grid justify-items-center pt-[8%]">
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
-          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">特殊贊助&thinsp;</p>
+          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">特殊贊助</p>
         </div>
         <hr class="divider_line col-span-2" />
       </div>
 
       <!-- GOLD -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           GOLD
@@ -190,7 +190,7 @@
       </div>
 
       <!-- SILVER -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           SILVER
@@ -210,7 +210,7 @@
       </div>
 
       <!-- BRONZE -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           BRONZE
@@ -230,7 +230,7 @@
       </div>
 
       <!-- FRESHMAN -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           FRESHMAN
@@ -244,7 +244,7 @@
       </div>
 
       <!-- 特別感謝 -->
-      <div class="flex items-center mt-10">
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           特別感謝
@@ -261,17 +261,17 @@
     </div>
 
     <!-- 媒體合作夥伴 -->
-    <div class="flex flex-col grid justify-items-center pt-[8%]">
+    <div class="grid justify-items-center pt-[8%]">
       <div class="grid grid-flow-col justify-items-center flex items-center w-[90%] md:w-[70%]">
         <hr class="divider_line col-span-2" />
         <div 
-          class="ml-3 aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat grid justify-items-center flex items-center w-[90%] md:w-[90%]"
+          class="aspect-[369/101] bg-[url('/sponsor/frame-s.svg')] bg-contain bg-no-repeat bg-center grid justify-items-center flex items-center w-[90%] md:w-[90%]"
         >
-          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">媒體合作夥伴&thinsp;</p>
+          <p class="text-textColor text-center text-sm sm:text-lg md:text-2xl lg:text-3xl xl:text-4xl whitespace-nowrap px-2 lg:p-3">媒體合作夥伴</p>
         </div>
         <hr class="divider_line col-span-2" />
       </div>
-      <div class="flex flex-row justify-center w-[80%] pt-[1%]">
+      <div class="flex flex-row justify-center w-[80%] pt-[7%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           電獺股份有限公司、聯利媒體股份有限公司、ETtoday
         </p>
@@ -319,9 +319,10 @@ export default {
 <style>
 
 .divider_line {
-  background: #60919E;
+  background: #A1EBE4;
   border: 1px solid #A1EBE4;
   width: 100%;
+  justify-self: stretch;
 }
 .yellow_font {
   font-weight: 550;
