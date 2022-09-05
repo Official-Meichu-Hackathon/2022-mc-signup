@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block relative aspect-[1440/715] w-screen overflow-x-hidden overflow-y-hidden z-40">
+  <div class="hidden md:block relative aspect-[1440/715] w-screen overflow-x-hidden overflow-y-hidden z-50">
     <img src="/home/home-bg.svg"
       class="absolute w-full top-0 bottom-0"
     />
@@ -16,23 +16,18 @@
     <object data="/home/text-l.svg" type="image/svg+xml" class="absolute obj_moving origin-right w-[50%] left-[20.7%] right-[47.6%] top-[63%] bottom-[30%] pr-[30%] m-auto"></object>
   </div>
 
-  <div class="block md:hidden relative aspect-[411/725] w-screen overflow-x-hidden overflow-y-visible">
+  <div class="block md:hidden relative aspect-[411/725] w-screen overflow-x-hidden overflow-y-visible z-50">
     <img 
       src="/home/home-bgSm.svg"
       class="absolute w-full top-0 bottom-0"
     />
-    <object data="/home/titleSm.svg" type="image/svg+xml" class="absolute scaleBig w-[4%] right-[47.4%] left-[47.4%] top-[45.2%] bottom-[30.8%]"></object>
-
-    <!-- <img 
-      src="/home/titleSm.svg"
-      class="absolute scaleBig w-[4%] right-[47.4%] left-[47.4%] top-[45.2%] bottom-[30.8%]"
-    /> -->
-    <object data="/home/icon-rt.svg" type="image/svg+xml" class="absolute scale origin-bottom-left w-[9%] right-[40.6%] left-[49.1%] top-[40.6%] bottom-[57.4%] pl-[2.5%] pb-[8%]"></object>
-    <object data="/home/icon-lt.svg" type="image/svg+xml" class="absolute scale origin-bottom-right w-[10%] left-[45.6%] right-[54.7%] top-[50.58%] bottom-[48%] pb-[8%] pr-[4%] m-auto"></object>
-    <object data="/home/icon-rb.svg" type="image/svg+xml" class="absolute scale origin-top-left w-[11%] left-[40.5%] right-[38.35%] top-[40.3%] bottom-[50%] pt-[9.5%] pl-[3.75%]"></object>
-    <object data="/home/icon-lb2.svg" type="image/svg+xml" class="absolute scale origin-top-right w-[9%] left-[45.4%] right-[30.8%] top-[40.6%] bottom-[35%] pt-[3%] pr-[2%] z-50"></object>
-    <object data="/home/t-l.svg" type="image/svg+xml" class="absolute scale origin-right w-[15.9%] left-[68.5%] right-[12.8%] top-[38.6%] bottom-[40%] pr-[10%]"></object>
-    <object data="/home/t-r.svg" type="image/svg+xml" class="absolute scale origin-left w-[12.5%] left-[35.4%] right-[45.8%] top-[48.6%] bottom-[30%] pl-[6%] z-10"></object>
+    <object data="/home/titleSm.svg" type="image/svg+xml" class="absolute scaleBig w-[20%] right-0 left-0 mx-auto my-auto top-0 bottom-0"></object>
+    <object data="/home/icon-rt.svg" type="image/svg+xml" class="absolute obj_moving origin-bottom-left w-[45%] right-[30.6%] left-[49.1%] top-[10.6%] bottom-[57.4%] pl-[7%] pb-[9%]"></object>
+    <object data="/home/icon-lt.svg" type="image/svg+xml" class="absolute obj_moving origin-bottom-right w-[55%] left-[8.6%] right-[54.7%] top-[22.58%] bottom-[58%] pb-[22%] pr-[30%]"></object>
+    <object data="/home/icon-rb.svg" type="image/svg+xml" class="absolute obj_moving origin-top-left w-[60%] left-[38.5%] right-[38.35%] top-[50.3%] bottom-[50%] pt-[40%] pl-[20%]"></object>
+    <object data="/home/icon-lb2.svg" type="image/svg+xml" class="absolute obj_moving origin-top-right w-[45%] left-[8.4%] right-[30.8%] top-[40.6%] bottom-[35%] pt-[15%] pr-[10%] z-50"></object>
+    <object data="/home/t-l.svg" type="image/svg+xml" class="absolute obj_moving origin-right w-[77%] left-[8.5%] right-[60.8%] top-[36.6%] bottom-[40%] pr-[45%]"></object>
+    <object data="/home/t-r.svg" type="image/svg+xml" class="absolute obj_moving origin-left w-[65%] left-[33.4%] right-[45.8%] top-[48.6%] bottom-[30%] pl-[30%] z-10"></object>
   </div>
 </template>
 
@@ -152,22 +147,22 @@
 
 @keyframes title_scale {
   0% {
-    transform: scale(1);
+    transform: scale(0.2);
   }
   1.5% {
     opacity: 0.2;
-    transform: scale(5);
+    transform: scale(1);
   }
   1.75% {
     opacity: 1;
-    transform: scale(5);
+    transform: scale(1);
   }
   12% {
     opacity: 1;
-    transform: scale(5);
+    transform: scale(1);
   }
   95%{
-    transform: scale(5);
+    transform: scale(1);
     opacity: 1;
 
   }

@@ -18,8 +18,8 @@
       </p>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <img src="../assets/sponsor/gov1.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/gov2.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/gov1.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/gov2.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>
@@ -46,13 +46,12 @@
       </div>
       <div class="w-[80%] mt-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <img src="../assets/sponsor/tsmc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/st.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/asml.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="/NXP-w.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/pxi.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/ctbc.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/kronos.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/st.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/ctbc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>
@@ -86,11 +85,11 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <img src="../assets/sponsor/Line.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/104.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/yahoo.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/tree.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/phone.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/Line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/104.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/tree.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/phone.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
@@ -111,9 +110,9 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <img src="../assets/sponsor/logitech.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/micron.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/ming.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/logitech.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/micron.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/ming.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
@@ -133,11 +132,11 @@
         <img src="../assets/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
-        <div class="flex justify-center flex-wrap"> 
-          <img src="../assets/sponsor/nthu.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/phison.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/hy.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/honhai.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+        <div class="flex justify-center flex-wrap">
+          <object data="/sponsor/nthu.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/phison.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/hy.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/honhai.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
@@ -185,7 +184,7 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <img src="../assets/sponsor/maicoin.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/maicoin.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
@@ -204,8 +203,8 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <img src="../assets/sponsor/TB.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/sanrio.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/TB.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/sanrio.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
@@ -224,8 +223,8 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <img src="../assets/sponsor/hackMd.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/CC.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/hackMd.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/CC.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
@@ -278,9 +277,9 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <img src="../assets/sponsor/aotter.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/TVBS.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
-          <img src="../assets/sponsor/ET.svg" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" />
+          <object data="/sponsor/aotter.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/TVBS.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/ET.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>
@@ -300,12 +299,7 @@
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] ml-[10%] justify-self-start star_move" />
       <a href="https://www.nxp.com" target="_blank" class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%]" style="display: block;">
         <object data="/sponsor/sponsor_nxp.svg" type="image/svg+xml" class="w-full rounded-[1.25rem]" style="pointer-events: none;">
-          <!-- <a href="https://www.nxp.com" target="_blank" class="w-full"></a> -->
         </object>
-        <!-- <img 
-          src="../assets/sponsor/sponsor_nxp.svg" 
-          class="w-full rounded-[1.25rem]"
-        /> -->
       </a>
       <img src="../assets/sponsor/star_big.svg" class="w-[5%] mr-[10%] justify-self-end star_move" />
       <div class="flex flex-row-reverse w-full flex items-center">
@@ -313,12 +307,6 @@
         <img src="../assets/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
       </div>
     </div>
-
-
-
-    
-
-    
   </div>
 </template>
 

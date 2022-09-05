@@ -1,7 +1,7 @@
 <template>
   <!-- <Transition name="nav"> -->
     <nav
-      class="fixed top-0 z-10 mx-auto w-screen py-[0.5%] px-[1%] bg-bgColor z-50"
+      class="fixed top-0 z-10 mx-auto w-screen py-[0.5%] px-[1%] bg-bgColor z-30"
       id="nav"
       >
       <!-- <transition name="slide"> -->
