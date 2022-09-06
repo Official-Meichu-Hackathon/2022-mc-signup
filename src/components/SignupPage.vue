@@ -57,7 +57,6 @@ const GoToPage = (id) => {
 }
 const refresh = () => {
   if (location.href.indexOf("#reloaded") == -1) {
-    console.log("refresh!")
     location.href = location.href + "#reloaded";
     location.reload();
   }
