@@ -2,7 +2,7 @@
   <div id="block1" class="flex flex-col grid justify-items-center w-screen mt-16">
     <div class="flex items-center">
         <img class="h-10" src="../assets/three_arrow.svg" />
-        <p class="title px-2 text-3xl lg:text-5xl xl:text-6xl">&thinsp;如何報名&thinsp;</p>
+        <p class="title px-2 text-2xl md:text-3xl lg:text-5xl xl:text-6xl">&thinsp;如何報名&thinsp;</p>
         <img class="h-10 transform rotate-180" src="../assets/three_arrow.svg" />
     </div>
     <div class="h-[3rem]"></div>
