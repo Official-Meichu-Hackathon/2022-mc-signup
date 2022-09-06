@@ -48,11 +48,11 @@
   </div>
 
   <!-- sm -->
-  <div class="block md:hidden w-[80%] mx-auto">
-    <p class="pink-title my-3 text-2xl" >>>>組別介紹</p>
-    <div class="flex flex-col grid justify-items-center w-full">
-      <div class="bg-[url('/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
-        <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto min-h-[90%] my-auto">
+  <div class="block md:hidden mx-auto">
+    <p class="pink-title ml-[10%] text-2xl" >>>>組別介紹</p>
+    <div class="grid justify-items-center mx-auto">
+      <div class="bg-[url('/hacker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] mx-auto w-[80%]">
+        <div class="aspect-[348/395] overflow-y-auto min-h-[50%] w-[80%] my-10 mx-auto">
           <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[0].name }}
           </p>
@@ -64,8 +64,8 @@
           </p>
         </div>
       </div>
-      <div class="bg-[url('/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] w-[100%]">
-        <div class="p-[10%] w-full aspect-[348/395] overflow-y-auto min-h-[90%] my-auto">
+      <div class="bg-[url('/maker_cardSm.svg')] bg-center bg-contain bg-no-repeat aspect-[348/395] mx-auto w-[80%]">
+        <div class="aspect-[348/395] overflow-y-auto min-h-[50%] w-[80%] my-10 mx-auto">
           <p class="intro-name text-base sm:text-lg font-bold">
             {{ intro[1].name }}
           </p>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <img src="../assets/bg_box.svg" class="-mt-[12%] ml-[85%] sm:-mt-[16%] sm:ml-[80%] w-[20%]" />
+    <img src="../assets/bg_box.svg" class="hidden sm:block sm:-mt-[15%] sm:ml-[70%] w-[20%]" />
   </div>
 
 </template>
