@@ -95,11 +95,7 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-<<<<<<< HEAD
-          <object data="/line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14 px-[1em]" style="pointer-events: none;"></object>
-=======
-          <object data="/Line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14 p-[1em]" style="pointer-events: none;"></object>
->>>>>>> 4409d1785ff3b7e00a16ea5fddcb0eaa24ff5927
+          <object data="/Line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14 mx-[1em]" style="pointer-events: none;"></object>
           <object data="/sponsor/104.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/tree.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
