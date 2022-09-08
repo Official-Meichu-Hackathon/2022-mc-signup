@@ -41,17 +41,11 @@
       </div>
       <div class="absolute left-0 right-0 mx-auto my-auto grid grid-flow-col-dense content-center gap-3 aspect-[738.2/154.5] bottom-0 max-w-[95%]">
         <div class="flex justify-around ">
-          <object v-if="selected == 0 || selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected == 0" :data="companies[selected].img[0]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
           <object v-if="selected == 0" :data="companies[selected].img[1]" type="image/svg+xml" class="w-[50%] max-h-[55%] self-center" style="pointer-events: none;"></object>
 
-          <object v-if="selected != 0 && selected != 2 && selected != 6" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center" style="pointer-events: none;"></object>
+          <object v-if="selected != 0" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center" style="pointer-events: none;"></object>
           <object v-if="selected == 3" :data="companies[selected].img[1]" type="image/svg+xml" class="h-[40px] lg:h-[50px] xl:h-[70px] self-center ml-3" style="pointer-events: none;"></object>
-
-          <!-- <object v-if="selected == 2" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] max-w-[70%] self-center" style="pointer-events: none;"></object> -->
-
-          <object v-if="selected == 6" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[70px] lg:h-[80px] xl:h-[100px] self-center" style="pointer-events: none;"></object>
-          <!-- <object v-if="selected != 0 && selected != 3" :data="companies[selected].img[0]" type="image/svg+xml" class="h-[65%] self-center" style="pointer-events: none;"></object> -->
-
         </div>
         <img src="../assets/intro_card_bottom.svg" class="col-span-2 my-auto justify-self-end" />
         <div v-if="selected != 7" class="flex flex-col grid justify-items-center col-span-1">
@@ -83,7 +77,7 @@
               class="aspect-square rounded-full grid justify-items-center max-w-[2.3rem]">
               <img src="../assets/download_btn.svg" class="max-w-[1.75rem]" />
             </button>
-            <p class="text-white text-[8px]">下載 PDF</p>
+            <p class="text-white text-[0.6rem] mt-1">下載 PDF</p>
           </div>
         </div>
         <img src="../assets/intro_card_bottomSm.svg" class="w-full my-2" />
@@ -153,7 +147,7 @@ export default {
         topic: '主題一：如何幫助使用者完成批量影像的演算法設計?\n\n說明：ASML 艾司摩爾是半導體微影技術的提供者,由於產品可能由不同的系統架構, 不同的語言撰寫。\n唯一不變的是, 在微影技術中,各產品都有使用影像處理的部分。 \n在產品開發過程中,時常會需要調整、設計影像處理演算法流程,來針對問題做處理,所以讓我們試著設計解決方案,來幫助加速演算法測試驗證過程。',        
         intro: '\n主題二：如何有效率地完成晶圓缺陷檢測?\n\n說明：在現今工業製程中,如何在製作的產品線中檢測出瑕疵是對於產品的良率很重要的一環。\n同樣的。在 AMSL 的產品中,除了利用微影技術製作出高良率的晶片,如何在晶片製作中檢測出瑕疵也是一個很重要的環節。\nASML HMI 產品是利用電子束顯微鏡(E-Beam)照出晶片細節,產生出微影的影像,並且利用演算法檢測出其中的瑕疵。\n本次的解決方案是如何利用影像處理演算法在電子束檢測出來的影像中,精準且快速的找到瑕疵。',
         link: '/ASML.pdf',
-        img: ['/asml.svg', '']
+        img: ['/asml_white.svg', '']
       },
       {
         name: '恩智浦半導體',
@@ -177,7 +171,7 @@ export default {
         img: ['/ctbc.svg', '']
       },
       {
-        name: 'Kronos Research',
+        name: 'Kronos Research 麒點科技',
         topic: '主題：做出自己的量化交易策略',
         intro: '說明：量化交易,指的是使用電腦技術進行交易的投資方式。依據統計,美國股票市場其中60% ~ 75% 的交易量來自量化交易。\n本次參賽者將透過加密貨幣歷史交易資料,來開發屬於自己的量化交易策略。',
         link: '/Kronos.pdf',

@@ -46,22 +46,22 @@
       </div>
       <div class="w-[80%] mt-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <!-- <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/st.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/ctbc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/asml.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object> -->
 
           <!-- st & asml img -->
-          <!-- <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/ST_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/ctbc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/asml_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object> -->
+          <object data="/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>

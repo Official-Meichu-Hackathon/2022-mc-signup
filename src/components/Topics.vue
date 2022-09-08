@@ -84,7 +84,7 @@
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[6]" type="image/svg+xml" class="bg-[#F18C31] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data="imgList[6]" type="image/svg+xml" class="bg-black rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
       </div>
 
