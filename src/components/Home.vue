@@ -75,23 +75,23 @@
   7% {
     transform: scale(1.6) translateZ(0);
   }
-  15% {
-    transform: scale(0.9) translateZ(0);
+  14% {
+    transform: scale(0.6) translateZ(0);
   }
-  22.5% {
+  21% {
     transform: scale(1.3) translateZ(0);
   }
-  27% {
-    transform: scale(1.04) translateZ(0);
+  28% {
+    transform: scale(0.7) translateZ(0);
 
   }
-  32.5% {
+  35% {
     transform: scale(1.1) translateZ(0);
   }
-  37% {
+  42% {
     transform: scale(0.92) translateZ(0);
   }
-  50% {
+  55% {
     transform: scale(1) translateZ(0);
   }
   95%{
