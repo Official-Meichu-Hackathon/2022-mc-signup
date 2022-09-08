@@ -40,7 +40,7 @@
         <p class="text-textColor text-center whitespace-pre-line md:whitespace-nowrap pt-[7%] px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           台灣積體電路製造股份有限公司、意法半導體、中國信託、
           <br class="hidden md:block" />
-          ASML、恩智浦半導體、原相科技、Kronos Research 
+          ASML、恩智浦半導體、原相科技、Kronos Research 麒點科技
         </p>
         <img src="../assets/sponsor/star1.svg" class="h-[40%] mr-2" />
       </div>
@@ -53,6 +53,15 @@
           <object data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+
+          <!-- st & asml img -->
+          <!-- <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/ST_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/ctbc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/asml_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object> -->
         </div>
       </div>
     </div>
@@ -86,9 +95,9 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <object data="/sponsor/Line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14 px-[1rem]" style="pointer-events: none;"></object>
           <object data="/sponsor/104.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/tree.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data="/sponsor/phone.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
