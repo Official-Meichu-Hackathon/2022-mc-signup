@@ -95,11 +95,11 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <object data="/Line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14 mx-[1em]" style="pointer-events: none;"></object>
-          <object data="/sponsor/104.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/tree.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/phone.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/Line.svg" type="image/svg+xml" class="my-[1em] h-5 sm:h-8 md:h-10 lg:h-14 mx-[1em]" style="pointer-events: none;"></object>
+          <object data="/sponsor/104.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/yahoo.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/tree.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data="/sponsor/phone.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
