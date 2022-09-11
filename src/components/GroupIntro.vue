@@ -85,12 +85,6 @@
     { name: '黑客組', content: '我們致力於搭起學生與企業之間的橋樑，學生運用企業資源並發揮潛力回應企業命題，同時企業方更提供實習機會，能讓學生進一步實踐創意發想！而今年我們將由以下七家企業作為引導單位：', company:'台積電、意法半導體、中國信託、ASML、原相科技、恩智浦半導體、Kronos Research 麒點科技'},
     { name: '創客交流組', content: '由新竹市政府命題，融入新竹居民真實生活情境與議題，鼓勵運用分享、學習與實作，實際的解決問題與提出方案，並促進創作過程人才交流，體現創新創意、數位應用及動手實作、解決問題的黑客精神！' }
   ]
-
-  // window.addEventListener("resize", () => {
-  //   let frameHeight = document.getElementById('groupIntro').clientHeight
-  //   console.log("height:", frameHeight)
-  //   document.getElementById('groupImg').style.height = frameHeight + "px"
-  // })
 </script>
 
 <style>

@@ -55,14 +55,15 @@ const GoToPage = (id) => {
         behavior: 'smooth',
       })
 }
-const refresh = () => {
-  if (location.href.indexOf("#reloaded") == -1) {
-    location.href = location.href + "#reloaded";
-    location.reload();
-  }
-}
+// const refresh = () => {
+//   if (location.href.indexOf("#reloaded") == -1) {
+//     location.href = location.href + "#reloaded";
+//     location.reload();
+//   }
+// }
 
-setTimeout(refresh, 1000);
+// setTimeout(refresh, 1000);
+
 </script>
 
 <style>

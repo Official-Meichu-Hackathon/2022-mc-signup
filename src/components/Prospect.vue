@@ -41,6 +41,40 @@ const content = [
   "2022，在強調與病毒共存、恢復正常生活的後疫情時代，人們努力撥開近兩年的陰霾，而我們亦持續推動資訊與科技的交流，希冀能夠促進跨領域的合作。\n\n除了在「黑客組」持續強化企業與學生之間的連結，2022 新竹 X 梅竹黑客松攜手新竹市政府，將創客思維加入「交流組」之中，轉變成為「創客交流組」。我們相信，在科技日新月異的今日，每個人都可以藉由更多的交流與數位應用，將奇思妙想付諸實現。\n\n另外，今年我們首度推出",
   "，除了提供參賽者找尋隊友的管道之外，也期待大家能夠在更多互動中，激發出不一樣的可能性。而在梅竹黑客松邁向十週年之際，我們不忘來時初衷與精神，希望在歷年奠定的基礎之上，激盪創新的想法並實踐，透過構建",
   "，紀錄每年的活動精華之外，也向歷屆參賽者徵集作品，讓這個網站成為成果存放平台，未來的參賽者將能夠在此找尋靈感與創意。\n\n我們將持續推動參與者之間的溝通與交流，希望在幾乎沒有限制的活動裡，每個人都能勇於跳脫固有框架並大膽實踐，並在有限時間內，和合作夥伴一同打造出獨特的最小可行性產品，實現屬於自己的創意構想。"]
+
+// select all the images
+const images = document.querySelectorAll('img')
+
+// circumstances under which the callback will be invoked
+const options = {
+  root: null,
+  rootMargin: '0px 0px 50px 0px',
+  threshold: 0
+}
+
+const loadImage = (img) => {
+  const src = img.getAttribute('src')
+  if (!src) return
+  img.src = src
+  // console.log('load img', src)
+}
+
+const callback = (entries, observer) => {
+  entries.forEach(entry => {
+    // only load the image when intersecting
+    if (!entry.isIntersecting) return
+    // load the image
+    loadImage(entry.target)
+    // stop observing this element
+    observer.unobserve(entry.target)
+  })
+}
+
+// create an observer
+let observer = new IntersectionObserver(callback, options)
+
+// observe all the images
+images.forEach(image => observer.observe(image))
 </script>
 
 <style>
