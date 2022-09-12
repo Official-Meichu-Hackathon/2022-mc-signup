@@ -18,8 +18,8 @@
       </p>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <object data="/sponsor/gov1.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/gov2.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/gov1.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/gov2.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>
@@ -36,13 +36,13 @@
         <hr class="divider_line col-span-2" />
       </div>
       <div class="flex flex-row items-center">
-        <img src="../assets/sponsor/star1.svg" class="h-[40%] ml-2" />
+        <img data-src="/sponsor/star1.svg" class="h-[40%] ml-2" />
         <p class="text-textColor text-center whitespace-pre-line md:whitespace-nowrap pt-[7%] px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           台灣積體電路製造股份有限公司、意法半導體、中國信託、
           <br class="hidden md:block" />
           ASML、恩智浦半導體、原相科技、Kronos Research 麒點科技
         </p>
-        <img src="../assets/sponsor/star1.svg" class="h-[40%] mr-2" />
+        <img data-src="/sponsor/star1.svg" class="h-[40%] mr-2" />
       </div>
       <div class="w-[80%] mt-5"> 
         <div class="flex justify-center flex-wrap"> 
@@ -55,13 +55,13 @@
           <object data="/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object> -->
 
           <!-- st & asml img -->
-          <object data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/ST_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/ctbc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/asml_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/tsmc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/ST_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/ctbc.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/asml_white.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/NXP-w.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/pxi.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/kronos.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>
@@ -80,90 +80,90 @@
 
       <!-- PLATINUM -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           PLATINUM
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row items-center justify-center w-[80%] py-[1%]">
-        <img src="../assets/sponsor/star2.svg" class="h-[50%] lg:h-[80%]" />
+        <img data-src="/sponsor/star2.svg" class="h-[50%] lg:h-[80%]" />
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           LINE 、 一零四資訊科技 、Yahoo 、 國泰金控 、中華電信
         </p>
-        <img src="../assets/sponsor/star2.svg" class="h-[50%] lg:h-[80%]" />
+        <img data-src="/sponsor/star2.svg" class="h-[50%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <object data="/Line.svg" type="image/svg+xml" class="my-[1em] h-5 sm:h-8 md:h-10 lg:h-14 mx-[1em]" style="pointer-events: none;"></object>
-          <object data="/sponsor/104.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/yahoo.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/tree.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/phone.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/Line.svg" type="image/svg+xml" class="my-[1em] h-5 sm:h-8 md:h-10 lg:h-14 mx-[1em]" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/104.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/yahoo.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/tree.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/phone.svg" type="image/svg+xml" class="my-[1em] mx-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
       <!-- GOLD -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           GOLD
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row items-center justify-center w-[80%] py-[1%]">
-        <img src="../assets/sponsor/star3.svg" class="h-[40%] lg:h-[80%]" />
+        <img data-src="/sponsor/star3.svg" class="h-[40%] lg:h-[80%]" />
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           羅技 、 美光 、錦明實業股份有限公司
         </p>
-        <img src="../assets/sponsor/star3.svg" class="h-[40%] lg:h-[80%]" />
+        <img data-src="/sponsor/star3.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <object data="/sponsor/logitech.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/micron.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/ming.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/logitech.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/micron.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/ming.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
       <!-- SILVER -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           SILVER
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row items-center justify-center w-[80%] py-[1%]">
-        <img src="../assets/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
+        <img data-src="/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           國立清華大學校友總會 、 群聯電子 、信義房屋、鴻海教育基金會
         </p>
-        <img src="../assets/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
+        <img data-src="/sponsor/star4.svg" class="h-[40%] lg:h-[80%]" />
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap">
-          <object data="/sponsor/nthu.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/phison.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/hy.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/honhai.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/nthu.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/phison.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/hy.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/honhai.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
       <!-- BRONZE -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           BRONZE
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row items-center justify-center w-[80%] py-[1%]">
-        <img src="../assets/sponsor/star5.svg" class="h-[50%] lg:h-[80%]" />
+        <img data-src="/sponsor/star5.svg" class="h-[50%] lg:h-[80%]" />
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
           Dcard
         </p>
-        <img src="../assets/sponsor/star5.svg" class="h-[50%] lg:h-[80%]" />
+        <img data-src="/sponsor/star5.svg" class="h-[50%] lg:h-[80%]" />
       </div>
     </div>
 
@@ -181,11 +181,11 @@
 
       <!-- GOLD -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           GOLD
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
@@ -194,17 +194,17 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <object data="/sponsor/maicoin.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/maicoin.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
       <!-- SILVER -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           SILVER
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
@@ -213,18 +213,18 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <object data="/sponsor/TB.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/sanrio.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/TB.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/sanrio.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
       <!-- BRONZE -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           BRONZE
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
@@ -233,18 +233,18 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
-          <object data="/sponsor/hackMd.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/CC.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/hackMd.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/CC.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
       <!-- FRESHMAN -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           FRESHMAN
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
@@ -254,11 +254,11 @@
 
       <!-- 特別感謝 -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
           特別感謝
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
@@ -287,34 +287,34 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap"> 
-          <object data="/sponsor/aotter.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/TVBS.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data="/sponsor/ET.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/aotter.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/TVBS.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/ET.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
     </div>
     
     <div class="flex flex-col grid justify-items-center w-full my-[10%]"> 
       <div class="flex items-center justify-center mx-auto mt-[3%] sponsorAd">
-        <img src="../assets/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
         <p class="yellow_font text-center text-2xl lg:text-4xl xl:text-5xl whitespace-nowrap px-2 lg:p-3">
           企業廣告
         </p>
-        <img src="../assets/sponsor/font_frame.svg" class="h-[50%]" />
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
       </div>
       <div class="flex flex-row w-full flex items-center">
         <hr class="w-[60%] divider_yellow justify-self-start" />
-        <img src="../assets/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
+        <img data-src="/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
       </div>
-      <img src="../assets/sponsor/star_big.svg" class="w-[5%] ml-[10%] justify-self-start star_move" />
+      <img data-src="/sponsor/star_big.svg" class="w-[5%] ml-[10%] justify-self-start star_move" />
       <a href="https://www.nxp.com" target="_blank" class="w-[60%] md:w-[50%] lg:w-[60%] my-[1%]" style="display: block;">
-        <object data="/sponsor/sponsor_nxp.svg" type="image/svg+xml" class="w-full rounded-[1.25rem]" style="pointer-events: none;">
+        <object data-data="/sponsor/sponsor_nxp.svg" type="image/svg+xml" class="w-full rounded-[1.25rem]" style="pointer-events: none;">
         </object>
       </a>
-      <img src="../assets/sponsor/star_big.svg" class="w-[5%] mr-[10%] justify-self-end star_move" />
+      <img data-src="/sponsor/star_big.svg" class="w-[5%] mr-[10%] justify-self-end star_move" />
       <div class="flex flex-row-reverse w-full flex items-center">
         <hr class="w-[60%] divider_yellow justify-self-end" />
-        <img src="../assets/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
+        <img data-src="/sponsor/star_big.svg" class="w-[10%] mx-[5%]" />
       </div>
     </div>
   </div>

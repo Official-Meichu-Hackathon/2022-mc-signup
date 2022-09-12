@@ -21,7 +21,7 @@
 
     <!-- Hacker -->
     <div class="flex flex-row flex items-center justify-self-start pl-[5%] pt-5">
-      <img class="h-10" src="../assets/star.svg" />
+      <img class="h-10" data-src="/star.svg" />
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">黑客組</p>
     </div>
 
@@ -42,49 +42,49 @@
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[0]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[0]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(1)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[1]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[1]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(2)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[2]" type="image/svg+xml" class="bg-[#F7F8F8] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[2]" type="image/svg+xml" class="bg-[#F7F8F8] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(3)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[3]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[3]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(4)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[4]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[4]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(5)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[5]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[5]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
         <button 
           @click="openTopic(6)" 
           class="w-[7.5rem] mx-[1rem] m-[2%] rounded-full aspect-square bg-cover bg-center bg-no-repeat "
           target="_blank" 
         >
-          <object :data="imgList[6]" type="image/svg+xml" class="bg-black rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+          <object :data-data="imgList[6]" type="image/svg+xml" class="bg-black rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
         </button>
       </div>
 
@@ -93,7 +93,7 @@
     <!-- sm TopicList -->
     <div class="block md:hidden flex justify-between items-center w-[90%] pt-5">
       <button @click="scrollLeft" class="mx-3 py-12 w-[8%] md:w-auto">
-        <img class="w-full animate-pulse" src="../assets/arrow_btn.svg" id="leftBtn" />
+        <img class="w-full animate-pulse" data-src="/arrow_btn.svg" id="leftBtn" />
       </button>
 
       <div id="list-box" class="list-box">
@@ -111,61 +111,61 @@
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[0]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[0]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(1)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[1]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[1]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(2)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[2]" type="image/svg+xml" class="bg-[#F7F8F8] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[2]" type="image/svg+xml" class="bg-[#F7F8F8] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(3)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[3]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[3]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(4)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[4]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[4]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(5)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[5]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[5]" type="image/svg+xml" class="bg-white rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
           <button 
             @click="openTopic(6)" 
             class="w-[7.5rem] mx-[1rem] list-items rounded-full aspect-square bg-cover bg-no-repeat "
             target="_blank" 
           >
-            <object :data="imgList[6]" type="image/svg+xml" class="bg-[#F18C31] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+            <object :data-data="imgList[6]" type="image/svg+xml" class="bg-[#F18C31] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
           </button>
         </div>
       </div>
 
       <button @click="scrollRight" class="mx-3 py-12  w-[8%] md:w-auto rotate-180">
-        <img class="w-full animate-pulse" src="../assets/arrow_btn.svg" id="rightBtn"/>
+        <img class="w-full animate-pulse" data-src="/arrow_btn.svg" id="rightBtn"/>
       </button>
     </div>
 
     <!-- Maker -->
     <div class="flex flex-row flex items-center justify-self-start pl-[5%] pt-5">
-      <img class="h-10" src="../assets/star.svg" />
+      <img class="h-10" data-src="/star.svg" />
       <p class="yellow-title text-2xl lg:text-3xl xl:text-4xl px-1">創客交流組</p>
     </div>
     <button 
@@ -173,7 +173,7 @@
         class="w-[7.5rem] mx-[1rem] pt-5 ml-0 md:ml-[10%] justify-self-center md:justify-self-start rounded-full aspect-square bg-cover bg-no-repeat "
         target="_blank" 
       >
-        <object :data="imgList[7]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
+        <object :data-data="imgList[7]" type="image/svg+xml" class="bg-[#FFFFFF] rounded-full aspect-square w-full" style="pointer-events: none;" ></object>
       </button>
     <!-- <p class="text-white text-sm lg:text-base xl:text-lg leading-loose tracking-[0.04em] flex justify-self-start pl-[8%] pt-5">
       交流組的參賽者自訂題目，以不同的角度切入問題，提供更加多元的解決方案。

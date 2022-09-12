@@ -13,9 +13,50 @@
   </a>
 </template>
 
-<script>
-export default {
+<script setup>
+import {onMounted} from 'vue'
+onMounted(() => {
+  lazy_loading()
+})
+const images = document.querySelectorAll('[data-src]')
+const objs = document.querySelectorAll('object')
 
+
+// circumstances under which the callback will be invoked
+const options = {
+  root: null,
+  rootMargin: '50px',
+  threshold: 0
+}
+
+const loadImage = (img) => {
+  const src = img.getAttribute('data-src')
+  const obj_src = img.getAttribute('data-data')
+  if (obj_src) {
+    img.data = obj_src
+  }
+  else if (!src) return
+  img.src = src
+}
+
+const callback = (entries, observer) => {
+  entries.forEach(entry => {
+    // only load the image when intersecting
+    if (!entry.isIntersecting) return
+    // load the image
+    loadImage(entry.target)
+    // stop observing this element
+    observer.unobserve(entry.target)
+  })
+}
+
+const lazy_loading = () => {
+  // create an observer
+  let observer = new IntersectionObserver(callback, options)
+
+  // observe all the images
+  images.forEach(image => observer.observe(image))
+  objs.forEach(obj => observer.observe(obj))
 }
 </script>
 

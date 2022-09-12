@@ -4,9 +4,9 @@
     <p class="pink-title my-10 text-3xl lg:text-5xl xl:text-6xl" >>>>組別介紹</p>
     <div class="grid grid-cols-2 w-full ">
       <div class="relative aspect-[598/638] mx-[1%] pt-3" id="groupImg">
-        <img src="../assets/group_frame.svg" class="absolute w-full aspect-[598/638]" />
+        <img data-src="/group_frame.svg" class="absolute w-full aspect-[598/638]" />
         <div class="absolute w-full aspect-[598/638] flex">
-          <object data="/group_intro_img.svg" type="image/svg+xml" width="80%" class="m-auto meta_move svgDisplay"></object>
+          <object data-data="/group_intro_img.svg" type="image/svg+xml" width="80%" class="m-auto meta_move svgDisplay"></object>
 
           <!-- <img src="../assets/group_intro_img.svg" class="m-auto w-[80%] meta_move" /> -->
         </div>
@@ -14,7 +14,7 @@
 
       <div class="flex flex-col justify-between mx-[1%] pb-[1%] h-full" id="groupIntro"> 
         <div class="aspect-[620/327] relative">
-          <img src="../assets/hacker_frame.svg" class="w-full aspect-[620/327]" />
+          <img data-src="/hacker_frame.svg" class="w-full aspect-[620/327]" />
           <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[80%] overflow-y-auto min-h-[80%]"> 
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[0].name }}
@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="aspect-[620/278] relative">
-          <img src="../assets/maker_frame.svg" class="w-full aspect-[620/278]" />
+          <img data-src="/maker_frame.svg" class="w-full aspect-[620/278]" />
           <div class="absolute top-[7%] lg:top-[10%] left-0 right-0 mx-auto aspect-[644/296] w-[90%] lg:w-[80%] overflow-y-auto min-h-[80%]"> 
             <p class="intro-name text-[0.9rem] lg:text-[1.5rem] p-1">
               {{ intro[1].name }}
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <img src="../assets/bg_box.svg" class="hidden sm:block sm:-mt-[15%] sm:ml-[70%] w-[20%]" />
+    <img data-src="/bg_box.svg" class="hidden sm:block sm:-mt-[15%] sm:ml-[70%] w-[20%]" />
   </div>
 
 </template>
