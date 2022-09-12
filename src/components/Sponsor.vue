@@ -248,7 +248,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          AWS、紫荊小舖
+          AWS、酷樂網
         </p>
       </div>
 
