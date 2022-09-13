@@ -97,7 +97,7 @@
         <div class="flex justify-center flex-wrap"> 
           <object data-data="/Line.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14 p-[0.3em] sm:p-[0.4em] md:p-[0.5em] lg:p-[1em]" style="pointer-events: none;"></object>
           <object data-data="/sponsor/104.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
-          <object data-data="/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/yahoo.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data-data="/sponsor/tree.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data-data="/sponsor/phone.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
