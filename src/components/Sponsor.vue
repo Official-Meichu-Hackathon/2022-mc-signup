@@ -208,7 +208,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          人才邦、三麗鷗
+          Talent Booster 人才邦、台灣三麗鷗
         </p>
       </div>
       <div class="w-[80%] my-5"> 
@@ -248,7 +248,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          AWS、酷樂網
+          Amazon Web Services、酷樂網
         </p>
       </div>
 
@@ -262,7 +262,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          國立陽明交通大學產學運籌中心、財團法人大眾教育基金會董事長簡明仁、Google
+          國立陽明交通大學產學運籌中心、財團法人大眾教育基金會董事長簡明仁、Google Cloud
         </p>
       </div>
 
@@ -282,7 +282,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[7%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          電獺股份有限公司、聯利媒體股份有限公司、ETtoday
+          電獺股份有限公司、聯利媒體股份有限公司、ETtoday 新聞雲
         </p>
       </div>
       <div class="w-[80%] my-5"> 
