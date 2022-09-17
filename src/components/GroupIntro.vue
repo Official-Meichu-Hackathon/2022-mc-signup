@@ -7,8 +7,6 @@
         <img data-src="/group_frame.svg" class="absolute w-full aspect-[598/638]" />
         <div class="absolute w-full aspect-[598/638] flex">
           <object data-data="/group_intro_img.svg" type="image/svg+xml" width="80%" class="m-auto meta_move svgDisplay"></object>
-
-          <!-- <img src="../assets/group_intro_img.svg" class="m-auto w-[80%] meta_move" /> -->
         </div>
       </div>
 
@@ -40,7 +38,6 @@
           <div class="blue_box absolute -bottom-3 right-0 w-[15%] z-0">
 
           </div>
-          <!-- <img src="../assets/bg_box.svg" class="absolute -bottom-3 right-0 w-[15%] z-0" /> -->
         </div>
       </div>
 
