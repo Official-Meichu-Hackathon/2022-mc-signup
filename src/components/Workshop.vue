@@ -82,7 +82,6 @@ export default {
 }
 @keyframes ping {
     50% {
-      transform: scale(2);
       opacity: 1;
     }
     0%, 100% {
