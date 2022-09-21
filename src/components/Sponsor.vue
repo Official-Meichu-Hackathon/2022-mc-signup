@@ -189,12 +189,13 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          Mai Coin集團
+          MaiCoin集團、活動王
         </p>
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center"> 
           <object data-data="/sponsor/maicoin.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <object data-data="/sponsor/CK.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
         </div>
       </div>
 
