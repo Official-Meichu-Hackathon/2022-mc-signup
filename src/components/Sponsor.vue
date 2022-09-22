@@ -263,7 +263,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          國立陽明交通大學產學運籌中心、財團法人大眾教育基金會董事長簡明仁、Google Cloud
+          國立陽明交通大學產學運籌中心、財團法人大眾教育基金會董事長簡明仁、Google Cloud、財團法人交大思源基金會
         </p>
       </div>
 
