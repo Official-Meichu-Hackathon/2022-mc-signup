@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col relative w-[90%] mx-auto md:w-screen">
-    <img data-src="/grid_lin.svg" class="hidden md:block object-fill w-screen" />
+  <div class="flex flex-col relative w-[90%] mx-auto md:w-full">
+    <img data-src="/grid_lin.svg" class="hidden md:block object-fill w-full" />
     <p class="hidden md:block title absolute text-3xl lg:text-5xl xl:text-6xl bottom-[85%] left-[10%]" >>>>活動願景</p>
     <p class="block md:hidden title text-2xl px-[5%]" >>>>活動願景</p>
 

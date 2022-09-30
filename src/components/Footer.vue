@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="fixed bottom-0 ma-auto w-screen px-2 pt-1 lg:px-3 bg-[#4C4C4C] z-20"
+    class="fixed bottom-0 ma-auto w-full px-2 pt-1 lg:px-3 bg-[#4C4C4C] z-20"
   >
     <div class="flex items-center justify-between">
       <object data="/footer_icon.svg" type="image/svg+xml" width="auto" class="svgDisplay"></object>

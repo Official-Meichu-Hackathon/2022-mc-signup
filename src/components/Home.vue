@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block relative aspect-[1440/715] w-screen overflow-x-hidden overflow-y-hidden z-50">
+  <div class="hidden md:block relative aspect-[1440/715] w-full overflow-x-hidden overflow-y-hidden z-50">
     <img src="/home/home-bg.svg"
       class="absolute w-full top-0 bottom-0"
     />
@@ -16,7 +16,7 @@
     <object data="/home/text-l.svg" type="image/svg+xml" class="absolute obj_moving origin-right w-[50%] left-[20.7%] right-[47.6%] top-[63%] bottom-[30%] pr-[30%] m-auto"></object>
   </div>
 
-  <div class="block md:hidden relative aspect-[411/725] w-screen overflow-x-hidden overflow-y-visible z-50">
+  <div class="block md:hidden relative aspect-[411/725] w-full overflow-x-hidden overflow-y-visible z-50">
     <img 
       src="/home/home-bgSm.svg"
       class="absolute w-full top-0 bottom-0"

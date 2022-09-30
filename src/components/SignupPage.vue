@@ -8,7 +8,7 @@
   />
   <Footer />
 
-  <div class="w-screen bg-bgColor py-0 md:py-20 overflow-x-hidden" id="home">
+  <div class="w-full bg-bgColor py-0 md:py-20 overflow-x-hidden" id="home">
     <!-- <div class="h-[300px]"></div> -->
     <Home /> 
     <Prospect id="block0" />

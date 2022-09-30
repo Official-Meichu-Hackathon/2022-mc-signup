@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen flex justify-center mt-16">
+  <div class="w-full flex justify-center mt-16">
     <div class="flex flex-col w-[90%] lg:w-[80%]">
       <p class="title text-3xl lg:text-5xl xl:text-6xl py-[2.5%]">>>>工作坊</p>
       <div class="grid grid-row-2 md:grid-cols-2 content-around md:content-center md:content-around gap-[1%] sm:gap-[5%] aspect-[358/745] sm:aspect-[358/537] md:aspect-[1232/602] w-full p-[10%] lg:p-[5%] xl:p-[10%] bg-[url('/workshop_frameXs.svg')] sm:bg-[url('/workshop_frameSm.svg')] md:bg-[url('/workshop_frame.svg')] bg-contain bg-no-repeat bg-center">
