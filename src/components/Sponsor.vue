@@ -253,6 +253,20 @@
         </p>
       </div>
 
+      <!-- 協辦單位 -->
+      <div class="flex items-center justify-center mx-auto mt-[3%]">
+        <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
+        <p class="yellow_font text-center text-xs sm:text-base md:text-xl lg:text-2xl xl:text-3xl whitespace-nowrap px-2 lg:p-3">
+          協辦單位
+        </p>
+        <img data-src="/sponsor/font_frame.svg" class="h-[50%]" />
+      </div>
+      <div class="flex flex-row justify-center w-[80%] pt-[1%]">
+        <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
+          國立清華大學電機資訊學院學士班、國立清華大學資訊工程學系、國立陽明交通大學產學運籌中心、國立陽明交通大學資訊工程學系、國立陽明交通大學電機工程學系、財團法人交大思源基金會
+        </p>
+      </div>
+
       <!-- 特別感謝 -->
       <div class="flex items-center justify-center mx-auto mt-[3%]">
         <img data-src="/sponsor/font_frame.svg" class="rotate-180 h-[50%]" />
@@ -263,7 +277,7 @@
       </div>
       <div class="flex flex-row justify-center w-[80%] pt-[1%]">
         <p class="text-textColor text-center whitespace-pre-line px-[5%] text-center text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">
-          國立陽明交通大學產學運籌中心、國立陽明交通大學資訊工程學系、財團法人大眾教育基金會董事長簡明仁、Google Cloud、財團法人交大思源基金會
+          財團法人大眾教育基金會董事長簡明仁、Google Cloud
         </p>
       </div>
 
