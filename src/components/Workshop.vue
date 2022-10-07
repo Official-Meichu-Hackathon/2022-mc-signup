@@ -24,9 +24,15 @@
             <img data-src="/workshop_arrow.svg" class="h-8 self-center w-[8%] md:w-auto" />
             <p class="yellow-title text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl self-center">&thinsp;創客交流組</p>
           </div>
-          <p class="mt-[3%] text-white tracking-[0.275em] text-xs md:text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose">
-            各組參賽者皆可選擇是否參與此工作坊，創客交流組享有參與優先權。另外，我們也開放非參賽者報名，詳情將於粉專釋出，希冀能讓所有參與者透過熟悉 Protoype 實作相關知識，更具體的傳達想法。
-          </p>
+          <span class="mt-[3%] text-white tracking-[0.275em] text-xs md:text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose">
+            各組參賽者皆可選擇是否參與此工作坊，創客交流組享有參與優先權。另外，我們也開放非參賽者報名
+          </span>
+          <span class="mt-[3%] underline underline-offset-4 font-bold text-white tracking-[0.275em] text-xs md:text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose">
+            <a href="https://forms.gle/JssQkGqrXUvhnfDy7" target="_blank">（報名連結）</a>
+          </span>
+          <span class="mt-[3%] text-white tracking-[0.275em] text-xs md:text-sm lg:text-base xl:text-lg leading-relaxed lg:leading-loose">
+            ，希冀能讓所有參與者透過熟悉 Protoype 實作相關知識，更具體的傳達想法。
+          </span>
             <a 
               href="/workshop2022.pdf"
               target="_blank"
