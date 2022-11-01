@@ -134,7 +134,7 @@
       </div>
       <div class="w-[80%] my-5"> 
         <div class="flex justify-center flex-wrap">
-          <object data-data="/sponsor/nthu.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
+          <!-- <object data-data="/sponsor/nthu.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object> -->
           <object data-data="/sponsor/phison.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data-data="/sponsor/hy.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
           <object data-data="/sponsor/honhai.svg" type="image/svg+xml" class="m-[1%] h-5 sm:h-8 md:h-10 lg:h-14" style="pointer-events: none;"></object>
